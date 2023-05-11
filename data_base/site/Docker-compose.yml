@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  api:
+    container_name: js-api
+    image: js-api
+    build: ./js
+    env_file:
+      - /env/api.env
+    depends_on:
+      - db
+    ports:
+      - "80:8080"
+  db:
+    container_name: database
+    image: hanryos/itil-database
+    build: ./db
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=sakila
+    volumes:
+      - db-itil:/var/lib/mysql
+
+volumes:
+  db-itil:
