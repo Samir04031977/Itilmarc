@@ -2,7 +2,9 @@
 
 ## Lancer le site via docker
 
-```docker run -d -p 80:8080 hanryos/itilquizz
+```
+docker run -d -p 80:8080 hanryos/itilquizz
+```
 
 ## Lancer le site localement
 
