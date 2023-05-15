@@ -35,150 +35,150 @@ abcd = ["A", "B", "C", "D"];
     question: tabquestions[ID[3]],
     choices: [tabrepA[ID[3]], tabrepB[ID[3]], tabrepC[ID[3]], tabrepD[ID[3]]],
     correctAnswer: tabrep[ID[3]]
-  // }, {
-  //   question: tabquestions[ID[4]],
-  //   choices: [tabrepA[ID[4]], tabrepB[ID[4]], tabrepC[ID[4]], tabrepD[ID[4]]],
-  //   correctAnswer: tabrep[ID[4]]
-  // }, {
-  //   question: tabquestions[ID[5]],
-  //   choices: [tabrepA[ID[5]], tabrepB[ID[5]], tabrepC[ID[5]], tabrepD[ID[5]]],
-  //   correctAnswer: tabrep[ID[5]]
-  // }, {
-  //   question: tabquestions[ID[6]],
-  //   choices: [tabrepA[ID[6]], tabrepB[ID[6]], tabrepC[ID[6]], tabrepD[ID[6]]],
-  //   correctAnswer: tabrep[ID[6]]
-  // }, {
-  //   question: tabquestions[ID[7]],
-  //   choices: [tabrepA[ID[7]], tabrepB[ID[7]], tabrepC[ID[7]], tabrepD[ID[7]]],
-  //   correctAnswer: tabrep[ID[7]]
-  // }, {
-  //   question: tabquestions[ID[8]],
-  //   choices: [tabrepA[ID[8]], tabrepB[ID[8]], tabrepC[ID[8]], tabrepD[ID[8]]],
-  //   correctAnswer: tabrep[ID[8]]
-  // }, {
-  //   question: tabquestions[ID[9]],
-  //   choices: [tabrepA[ID[9]], tabrepB[ID[9]], tabrepC[ID[9]], tabrepD[ID[9]]],
-  //   correctAnswer: tabrep[ID[9]]
-  // }, {
-  //   question: tabquestions[ID[10]],
-  //   choices: [tabrepA[ID[10]], tabrepB[ID[10]], tabrepC[ID[10]], tabrepD[ID[10]]],
-  //   correctAnswer: tabrep[ID[10]]
-  // }, {
-  //   question: tabquestions[ID[11]],
-  //   choices: [tabrepA[ID[11]], tabrepB[ID[11]], tabrepC[ID[11]], tabrepD[ID[11]]],
-  //   correctAnswer: tabrep[ID[11]]
-  // }, {
-  //   question: tabquestions[ID[12]],
-  //   choices: [tabrepA[ID[12]], tabrepB[ID[12]], tabrepC[ID[12]], tabrepD[ID[12]]],
-  //   correctAnswer: tabrep[ID[12]]
-  // }, {
-  //   question: tabquestions[ID[13]],
-  //   choices: [tabrepA[ID[13]], tabrepB[ID[13]], tabrepC[ID[13]], tabrepD[ID[13]]],
-  //   correctAnswer: tabrep[ID[13]]
-  // }, {
-  //   question: tabquestions[ID[14]],
-  //   choices: [tabrepA[ID[14]], tabrepB[ID[14]], tabrepC[ID[14]], tabrepD[ID[14]]],
-  //   correctAnswer: tabrep[ID[14]]
-  // }, {
-  //   question: tabquestions[ID[15]],
-  //   choices: [tabrepA[ID[15]], tabrepB[ID[15]], tabrepC[ID[15]], tabrepD[ID[15]]],
-  //   correctAnswer: tabrep[ID[15]]
-  // }, {
-  //   question: tabquestions[ID[16]],
-  //   choices: [tabrepA[ID[16]], tabrepB[ID[16]], tabrepC[ID[16]], tabrepD[ID[16]]],
-  //   correctAnswer: tabrep[ID[16]]
-  // }, {
-  //   question: tabquestions[ID[17]],
-  //   choices: [tabrepA[ID[17]], tabrepB[ID[17]], tabrepC[ID[17]], tabrepD[ID[17]]],
-  //   correctAnswer: tabrep[ID[17]]
-  // }, {
-  //   question: tabquestions[ID[18]],
-  //   choices: [tabrepA[ID[18]], tabrepB[ID[18]], tabrepC[ID[18]], tabrepD[ID[18]]],
-  //   correctAnswer: tabrep[ID[18]]
-  // }, {
-  //   question: tabquestions[ID[19]],
-  //   choices: [tabrepA[ID[19]], tabrepB[ID[19]], tabrepC[ID[19]], tabrepD[ID[19]]],
-  //   correctAnswer: tabrep[ID[19]]
-  // }, {
-  //   question: tabquestions[ID[20]],
-  //   choices: [tabrepA[ID[20]], tabrepB[ID[20]], tabrepC[ID[20]], tabrepD[ID[20]]],
-  //   correctAnswer: tabrep[ID[20]]
-  // }, {
-  //   question: tabquestions[ID[21]],
-  //   choices: [tabrepA[ID[21]], tabrepB[ID[21]], tabrepC[ID[21]], tabrepD[ID[21]]],
-  //   correctAnswer: tabrep[ID[21]]
-  // }, {
-  //   question: tabquestions[ID[22]],
-  //   choices: [tabrepA[ID[22]], tabrepB[ID[22]], tabrepC[ID[22]], tabrepD[ID[22]]],
-  //   correctAnswer: tabrep[ID[22]]
-  // }, {
-  //   question: tabquestions[ID[23]],
-  //   choices: [tabrepA[ID[23]], tabrepB[ID[23]], tabrepC[ID[23]], tabrepD[ID[23]]],
-  //   correctAnswer: tabrep[ID[23]]
-  // }, {
-  //   question: tabquestions[ID[24]],
-  //   choices: [tabrepA[ID[24]], tabrepB[ID[24]], tabrepC[ID[24]], tabrepD[ID[24]]],
-  //   correctAnswer: tabrep[ID[24]]
-  // }, {
-  //   question: tabquestions[ID[25]],
-  //   choices: [tabrepA[ID[25]], tabrepB[ID[25]], tabrepC[ID[25]], tabrepD[ID[25]]],
-  //   correctAnswer: tabrep[ID[25]]
-  // }, {
-  //   question: tabquestions[ID[26]],
-  //   choices: [tabrepA[ID[26]], tabrepB[ID[26]], tabrepC[ID[26]], tabrepD[ID[26]]],
-  //   correctAnswer: tabrep[ID[26]]
-  // }, {
-  //   question: tabquestions[ID[27]],
-  //   choices: [tabrepA[ID[27]], tabrepB[ID[27]], tabrepC[ID[27]], tabrepD[ID[27]]],
-  //   correctAnswer: tabrep[ID[27]]
-  // }, {
-  //   question: tabquestions[ID[28]],
-  //   choices: [tabrepA[ID[28]], tabrepB[ID[28]], tabrepC[ID[28]], tabrepD[ID[28]]],
-  //   correctAnswer: tabrep[ID[28]]
-  // }, {
-  //   question: tabquestions[ID[29]],
-  //   choices: [tabrepA[ID[29]], tabrepB[ID[29]], tabrepC[ID[29]], tabrepD[ID[29]]],
-  //   correctAnswer: tabrep[ID[29]]
-  // }, {
-  //   question: tabquestions[ID[30]],
-  //   choices: [tabrepA[ID[30]], tabrepB[ID[30]], tabrepC[ID[30]], tabrepD[ID[30]]],
-  //   correctAnswer: tabrep[ID[30]]
-  // }, {
-  //   question: tabquestions[ID[31]],
-  //   choices: [tabrepA[ID[31]], tabrepB[ID[31]], tabrepC[ID[31]], tabrepD[ID[31]]],
-  //   correctAnswer: tabrep[ID[31]]
-  // }, {
-  //   question: tabquestions[ID[32]],
-  //   choices: [tabrepA[ID[32]], tabrepB[ID[32]], tabrepC[ID[32]], tabrepD[ID[32]]],
-  //   correctAnswer: tabrep[ID[32]]
-  // }, {
-  //   question: tabquestions[ID[33]],
-  //   choices: [tabrepA[ID[33]], tabrepB[ID[33]], tabrepC[ID[33]], tabrepD[ID[33]]],
-  //   correctAnswer: tabrep[ID[33]]
-  // }, {
-  //   question: tabquestions[ID[34]],
-  //   choices: [tabrepA[ID[34]], tabrepB[ID[34]], tabrepC[ID[34]], tabrepD[ID[34]]],
-  //   correctAnswer: tabrep[ID[34]]
-  // }, {
-  //   question: tabquestions[ID[35]],
-  //   choices: [tabrepA[ID[35]], tabrepB[ID[35]], tabrepC[ID[35]], tabrepD[ID[35]]],
-  //   correctAnswer: tabrep[ID[35]]
-  // }, {
-  //   question: tabquestions[ID[36]],
-  //   choices: [tabrepA[ID[36]], tabrepB[ID[36]], tabrepC[ID[36]], tabrepD[ID[36]]],
-  //   correctAnswer: tabrep[ID[36]]
-  // }, {
-  //   question: tabquestions[ID[37]],
-  //   choices: [tabrepA[ID[37]], tabrepB[ID[37]], tabrepC[ID[37]], tabrepD[ID[37]]],
-  //   correctAnswer: tabrep[ID[37]]
-  // }, {
-  //   question: tabquestions[ID[38]],
-  //   choices: [tabrepA[ID[38]], tabrepB[ID[38]], tabrepC[ID[38]], tabrepD[ID[38]]],
-  //   correctAnswer: tabrep[ID[38]]
-  // }, {
-  //   question: tabquestions[ID[39]],
-  //   choices: [tabrepA[ID[39]], tabrepB[ID[39]], tabrepC[ID[39]], tabrepD[ID[39]]],
-  //   correctAnswer: tabrep[ID[39]]
+  }, {
+    question: tabquestions[ID[4]],
+    choices: [tabrepA[ID[4]], tabrepB[ID[4]], tabrepC[ID[4]], tabrepD[ID[4]]],
+    correctAnswer: tabrep[ID[4]]
+  }, {
+    question: tabquestions[ID[5]],
+    choices: [tabrepA[ID[5]], tabrepB[ID[5]], tabrepC[ID[5]], tabrepD[ID[5]]],
+    correctAnswer: tabrep[ID[5]]
+  }, {
+    question: tabquestions[ID[6]],
+    choices: [tabrepA[ID[6]], tabrepB[ID[6]], tabrepC[ID[6]], tabrepD[ID[6]]],
+    correctAnswer: tabrep[ID[6]]
+  }, {
+    question: tabquestions[ID[7]],
+    choices: [tabrepA[ID[7]], tabrepB[ID[7]], tabrepC[ID[7]], tabrepD[ID[7]]],
+    correctAnswer: tabrep[ID[7]]
+  }, {
+    question: tabquestions[ID[8]],
+    choices: [tabrepA[ID[8]], tabrepB[ID[8]], tabrepC[ID[8]], tabrepD[ID[8]]],
+    correctAnswer: tabrep[ID[8]]
+  }, {
+    question: tabquestions[ID[9]],
+    choices: [tabrepA[ID[9]], tabrepB[ID[9]], tabrepC[ID[9]], tabrepD[ID[9]]],
+    correctAnswer: tabrep[ID[9]]
+  }, {
+    question: tabquestions[ID[10]],
+    choices: [tabrepA[ID[10]], tabrepB[ID[10]], tabrepC[ID[10]], tabrepD[ID[10]]],
+    correctAnswer: tabrep[ID[10]]
+  }, {
+    question: tabquestions[ID[11]],
+    choices: [tabrepA[ID[11]], tabrepB[ID[11]], tabrepC[ID[11]], tabrepD[ID[11]]],
+    correctAnswer: tabrep[ID[11]]
+  }, {
+    question: tabquestions[ID[12]],
+    choices: [tabrepA[ID[12]], tabrepB[ID[12]], tabrepC[ID[12]], tabrepD[ID[12]]],
+    correctAnswer: tabrep[ID[12]]
+  }, {
+    question: tabquestions[ID[13]],
+    choices: [tabrepA[ID[13]], tabrepB[ID[13]], tabrepC[ID[13]], tabrepD[ID[13]]],
+    correctAnswer: tabrep[ID[13]]
+  }, {
+    question: tabquestions[ID[14]],
+    choices: [tabrepA[ID[14]], tabrepB[ID[14]], tabrepC[ID[14]], tabrepD[ID[14]]],
+    correctAnswer: tabrep[ID[14]]
+  }, {
+    question: tabquestions[ID[15]],
+    choices: [tabrepA[ID[15]], tabrepB[ID[15]], tabrepC[ID[15]], tabrepD[ID[15]]],
+    correctAnswer: tabrep[ID[15]]
+  }, {
+    question: tabquestions[ID[16]],
+    choices: [tabrepA[ID[16]], tabrepB[ID[16]], tabrepC[ID[16]], tabrepD[ID[16]]],
+    correctAnswer: tabrep[ID[16]]
+  }, {
+    question: tabquestions[ID[17]],
+    choices: [tabrepA[ID[17]], tabrepB[ID[17]], tabrepC[ID[17]], tabrepD[ID[17]]],
+    correctAnswer: tabrep[ID[17]]
+  }, {
+    question: tabquestions[ID[18]],
+    choices: [tabrepA[ID[18]], tabrepB[ID[18]], tabrepC[ID[18]], tabrepD[ID[18]]],
+    correctAnswer: tabrep[ID[18]]
+  }, {
+    question: tabquestions[ID[19]],
+    choices: [tabrepA[ID[19]], tabrepB[ID[19]], tabrepC[ID[19]], tabrepD[ID[19]]],
+    correctAnswer: tabrep[ID[19]]
+  }, {
+    question: tabquestions[ID[20]],
+    choices: [tabrepA[ID[20]], tabrepB[ID[20]], tabrepC[ID[20]], tabrepD[ID[20]]],
+    correctAnswer: tabrep[ID[20]]
+  }, {
+    question: tabquestions[ID[21]],
+    choices: [tabrepA[ID[21]], tabrepB[ID[21]], tabrepC[ID[21]], tabrepD[ID[21]]],
+    correctAnswer: tabrep[ID[21]]
+  }, {
+    question: tabquestions[ID[22]],
+    choices: [tabrepA[ID[22]], tabrepB[ID[22]], tabrepC[ID[22]], tabrepD[ID[22]]],
+    correctAnswer: tabrep[ID[22]]
+  }, {
+    question: tabquestions[ID[23]],
+    choices: [tabrepA[ID[23]], tabrepB[ID[23]], tabrepC[ID[23]], tabrepD[ID[23]]],
+    correctAnswer: tabrep[ID[23]]
+  }, {
+    question: tabquestions[ID[24]],
+    choices: [tabrepA[ID[24]], tabrepB[ID[24]], tabrepC[ID[24]], tabrepD[ID[24]]],
+    correctAnswer: tabrep[ID[24]]
+  }, {
+    question: tabquestions[ID[25]],
+    choices: [tabrepA[ID[25]], tabrepB[ID[25]], tabrepC[ID[25]], tabrepD[ID[25]]],
+    correctAnswer: tabrep[ID[25]]
+  }, {
+    question: tabquestions[ID[26]],
+    choices: [tabrepA[ID[26]], tabrepB[ID[26]], tabrepC[ID[26]], tabrepD[ID[26]]],
+    correctAnswer: tabrep[ID[26]]
+  }, {
+    question: tabquestions[ID[27]],
+    choices: [tabrepA[ID[27]], tabrepB[ID[27]], tabrepC[ID[27]], tabrepD[ID[27]]],
+    correctAnswer: tabrep[ID[27]]
+  }, {
+    question: tabquestions[ID[28]],
+    choices: [tabrepA[ID[28]], tabrepB[ID[28]], tabrepC[ID[28]], tabrepD[ID[28]]],
+    correctAnswer: tabrep[ID[28]]
+  }, {
+    question: tabquestions[ID[29]],
+    choices: [tabrepA[ID[29]], tabrepB[ID[29]], tabrepC[ID[29]], tabrepD[ID[29]]],
+    correctAnswer: tabrep[ID[29]]
+  }, {
+    question: tabquestions[ID[30]],
+    choices: [tabrepA[ID[30]], tabrepB[ID[30]], tabrepC[ID[30]], tabrepD[ID[30]]],
+    correctAnswer: tabrep[ID[30]]
+  }, {
+    question: tabquestions[ID[31]],
+    choices: [tabrepA[ID[31]], tabrepB[ID[31]], tabrepC[ID[31]], tabrepD[ID[31]]],
+    correctAnswer: tabrep[ID[31]]
+  }, {
+    question: tabquestions[ID[32]],
+    choices: [tabrepA[ID[32]], tabrepB[ID[32]], tabrepC[ID[32]], tabrepD[ID[32]]],
+    correctAnswer: tabrep[ID[32]]
+  }, {
+    question: tabquestions[ID[33]],
+    choices: [tabrepA[ID[33]], tabrepB[ID[33]], tabrepC[ID[33]], tabrepD[ID[33]]],
+    correctAnswer: tabrep[ID[33]]
+  }, {
+    question: tabquestions[ID[34]],
+    choices: [tabrepA[ID[34]], tabrepB[ID[34]], tabrepC[ID[34]], tabrepD[ID[34]]],
+    correctAnswer: tabrep[ID[34]]
+  }, {
+    question: tabquestions[ID[35]],
+    choices: [tabrepA[ID[35]], tabrepB[ID[35]], tabrepC[ID[35]], tabrepD[ID[35]]],
+    correctAnswer: tabrep[ID[35]]
+  }, {
+    question: tabquestions[ID[36]],
+    choices: [tabrepA[ID[36]], tabrepB[ID[36]], tabrepC[ID[36]], tabrepD[ID[36]]],
+    correctAnswer: tabrep[ID[36]]
+  }, {
+    question: tabquestions[ID[37]],
+    choices: [tabrepA[ID[37]], tabrepB[ID[37]], tabrepC[ID[37]], tabrepD[ID[37]]],
+    correctAnswer: tabrep[ID[37]]
+  }, {
+    question: tabquestions[ID[38]],
+    choices: [tabrepA[ID[38]], tabrepB[ID[38]], tabrepC[ID[38]], tabrepD[ID[38]]],
+    correctAnswer: tabrep[ID[38]]
+  }, {
+    question: tabquestions[ID[39]],
+    choices: [tabrepA[ID[39]], tabrepB[ID[39]], tabrepC[ID[39]], tabrepD[ID[39]]],
+    correctAnswer: tabrep[ID[39]]
   }];
   
   var questionCounter = 0; //Tracks question number
