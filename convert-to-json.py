@@ -3,7 +3,7 @@ import json
 
 questions = {}
 
-with open('questions.csv', encoding="utf-8") as questionsFile:
+with open('data/questions.csv', encoding="utf-8") as questionsFile:
     questionsData = csv.reader(questionsFile, delimiter=";")
     next(questionsData, None) # skip header
     for questionLine in questionsData:
@@ -24,7 +24,7 @@ with open('questions.csv', encoding="utf-8") as questionsFile:
             # actually an answer
             questions[qId]["answers"][ansId] = ansTxt
 
-with open('good-answers.csv', encoding="utf-8") as answerFile:
+with open('data/good-answers.csv', encoding="utf-8") as answerFile:
     answerData = csv.reader(answerFile, delimiter=";")
     next(answerData, None) # skip header
     for answerLine in answerData:
@@ -34,6 +34,6 @@ with open('good-answers.csv', encoding="utf-8") as answerFile:
 
 jsonData = json.dumps(questions, indent="  ", ensure_ascii=False)
 
-with open('../js/data.json', 'w', encoding='utf-8') as jsonFile:
+with open('site/data.json', 'w', encoding='utf-8') as jsonFile:
     jsonFile.write(jsonData)
 

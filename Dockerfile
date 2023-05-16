@@ -7,7 +7,8 @@ COPY package*.json .
 
 RUN npm install
 
-COPY . .
+COPY server.js .
+COPY site site
 
 EXPOSE 8080
 
