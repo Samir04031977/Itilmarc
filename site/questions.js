@@ -9,6 +9,10 @@ function shuffle(array) {
   return array;
 }
 
+// s = 100%, l = 40%
+var greenH = 120;
+var redH = 0;
+
 const nbQuestion = 40;
 
 fetch("data.json")
@@ -18,11 +22,13 @@ fetch("data.json")
         init(questionsData);
       })
       .catch(function(error) {
-        console.log(error)
+        $('#quiz').append('<p>Erreur de décodage des données de questions/réponses. Voir la console pour les détails.</p>').fadeIn();
+        console.log(error);
       })
   })
   .catch(function(error){
-    console.log(error)
+    $('#quiz').append('<p>Erreur de récupération des données de questions/réponses. Voir la console pour les détails.</p>').fadeIn();
+    console.log(error);
   });
 
 function init(questionsData) {
@@ -40,6 +46,25 @@ function init(questionsData) {
     var min = parseInt(sec / 60);
     sec = sec % 60;
     $('.time-progress-time').html(String(min).padStart(2, '0') + ':' + String(sec).padStart(2, '0'));
+
+    // compute progresbar color
+    var remTime = 3600000 - progress;
+    var remQu = nbQuestion - questionCounter;
+    var progressHue = 0;
+    if (remTime == 0)
+      progressHue = redH;
+    else if (remQu == 0)
+      progressHue = greenH;
+    else {
+      var remTimePerQu = remTime / remQu;
+      if (remTimePerQu > 90000)
+        progressHue = greenH;
+      else if (remTimePerQu < 20000)
+        progressHue = redH;
+      else
+        progressHue = redH + (remTimePerQu - 20000) * (greenH - redH) / (90000 - 20000);
+    }
+    document.getElementById('time-progress').style.setProperty('--progress-background', 'hsl(' + progressHue + ', 100%, 40%)');
   }, 200);
 
   var ids = Object.keys(questionsData);
@@ -56,8 +81,6 @@ function init(questionsData) {
   }
 
   $('#questionTotal').html(nbQuestion);
-
-  console.log(questions);
   
   var questionCounter = 0; //Tracks question number
   var selections = []; //Array containing user choices
