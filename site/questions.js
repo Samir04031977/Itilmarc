@@ -9,7 +9,7 @@ function shuffle(array) {
   return array;
 }
 
-const nbQuestion = 10;
+const nbQuestion = 40;
 
 fetch("data.json")
   .then(function(response){
