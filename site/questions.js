@@ -49,7 +49,7 @@ function init(questionsData) {
   for (var i = 0; i < nbQuestion; i++) {
     var quData = questionsData[ids[i]]
     questions.push({
-      question: quData["question"],
+      question: quData["question"].replaceAll('\n', '<br>'),
       choices: quData["answers"],
       correctAnswer: quData["good"]
     })
@@ -73,6 +73,10 @@ function init(questionsData) {
     
     // Suspend click listener during fade animation
     if(quiz.is(':animated')) {        
+      return false;
+    }
+
+    if (questionCounter >= questions.length) {
       return false;
     }
 
@@ -139,13 +143,13 @@ function init(questionsData) {
   }
 
   function displayAnswer() {
+    $('input[name="answer"]').prop("disabled", true);
     var selectedAnswer = selections[questionCounter];
     var goodAnswer = questions[questionCounter].correctAnswer;
     $('#answer-line-' + goodAnswer).addClass('good');
     if (selectedAnswer !== goodAnswer) {
       $('#answer-line-' + selectedAnswer).addClass('bad');
     }
-    // countGoodAnswers()
     $('#answerGoodCount').html(countGoodAnswers());
     $('#answerTotalCount').html((questionCounter + 1));
   }
@@ -160,19 +164,11 @@ function init(questionsData) {
         $('#questionCurrent').html((questionCounter + 1));
         var nextQuestion = createQuestionElement(questionCounter);
         quiz.append(nextQuestion).fadeIn();
-        if (!(isNaN(selections[questionCounter]))) {
-          $('input[value='+selections[questionCounter]+']').prop('checked', true);
-        }
-        
-        // Controls display of 'prev' button
-        if(questionCounter === 1){
-        } else if(questionCounter === 0){
-          $('#next').show();
-        }
-      }else {
+      }
+      else {
         var scoreElem = displayScore();
         quiz.append(scoreElem).fadeIn();
-        $('#next').hide();
+        
       }
     });
   }
