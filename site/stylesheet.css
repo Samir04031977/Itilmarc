@@ -1,5 +1,6 @@
 body {
     font-family: Open Sans;
+    padding-top: 8px;
 }
 
 h1 {
@@ -108,7 +109,7 @@ progress#time-progress {
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 0;
+    top: 0;
     height: 8px;
     border: none;
     width: 100%;
