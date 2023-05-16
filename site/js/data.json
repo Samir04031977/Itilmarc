@@ -1,0 +1,1602 @@
+{
+  "1": {
+    "question": "Quelle pratique est responsable du déplacement des composants vers les environnements de production ?",
+    "answers": {
+      "A": "L'habilitation des changements",
+      "B": "La gestion des mises en production",
+      "C": "La gestion des actifs informatiques",
+      "D": "La gestion des déploiements"
+    },
+    "good": "D"
+  },
+  "2": {
+    "question": "Quelle pratique inclue la classification et la propriété des questions et des demandes des utilisateurs ?",
+    "answers": {
+      "A": "Le centre de services",
+      "B": "La gestion des incidents",
+      "C": "L'habilitation des changements",
+      "D": "La gestion des niveaux de service"
+    },
+    "good": "A"
+  },
+  "3": {
+    "question": "Quelle pratique identifie les métriques qui reflètent l'expérience d'un service pour le client ?",
+    "answers": {
+      "A": "L'amélioration continue",
+      "B": "Le centre de services",
+      "C": "La gestion des niveaux de service",
+      "D": "La gestion des problèmes"
+    },
+    "good": "C"
+  },
+  "4": {
+    "question": "Quelle est l'utilisation PRINCIPALE d'un calendrier des changements ?",
+    "answers": {
+      "A": "Pour supporter la \"gestion des incidents\" et la planification d'améliorations",
+      "B": "Pour gérer les changements urgents",
+      "C": "Pour planifier les changements et éviter les conflits",
+      "D": "Pour gérer les changements standard"
+    },
+    "good": "C"
+  },
+  "5": {
+    "question": "Quelle dimension de la gestion des services est axée sur les activités et la façon dont elles sont coordonnées ?",
+    "answers": {
+      "A": "Organisations et personnes",
+      "B": "Information et technologie",
+      "C": "Partenaires et fournisseurs",
+      "D": "Flux de valeur et processus"
+    },
+    "good": "D"
+  },
+  "6": {
+    "question": "De quelle façon la catégorisation des incidents assiste-t-elle la pratique de \"gestion des incidents\" ?",
+    "answers": {
+      "A": "Elle permet de diriger l'incident vers la zone de support appropriée",
+      "B": "Elle détermine la priorité assignée à l'incident",
+      "C": "Elle s'assure que les incidents sont résolus dans les délais convenus avec le client",
+      "D": "Elle détermine la façon dont le fournisseur de services est perçu"
+    },
+    "good": "A"
+  },
+  "7": {
+    "question": "Identifiez le ou les mots manquants dans la phrase suivante : Un service est un moyen qui permet la co-création de valeur en facilitant [?] que les clients veulent atteindre",
+    "answers": {
+      "A": "la garantie",
+      "B": "les résultats",
+      "C": "l'utilité",
+      "D": "les livrables"
+    },
+    "good": "B"
+  },
+  "8": {
+    "question": "Laquelle des options suivantes est une recommandation de la pratique d'\"amélioration continue\" ?",
+    "answers": {
+      "A": "Il devrait y avoir au moins une petite équipe qui se consacre à la conduite des efforts d'\"amélioration continue\"",
+      "B": "Toutes les améliorations doivent être gérées comme des projets à phases multiples",
+      "C": "L'\"amélioration continue\" doit être isolée des autres pratiques",
+      "D": "Les fournisseurs externes doivent être exclus des initiatives d'amélioration"
+    },
+    "good": "A"
+  },
+  "9": {
+    "question": "Laquelle des options suivantes est un bénéfice potentiel de l'utilisation d'un outil de gestion des services informatiques pour supporter la pratique de \"gestion des incidents\" ?",
+    "answers": {
+      "A": "Il peut s'assurer que la cause des incidents est identifiée dans les délais convenus",
+      "B": "Il peut fournir un appariement automatisé des incidents aux problèmes ou aux erreurs connues",
+      "C": "Il peut s'assurer que les contrats des fournisseurs sont alignés sur les besoins du fournisseur de services",
+      "D": "Il peut permettre la résolution et la clôture automatisées d'incidents complexes"
+    },
+    "good": "B"
+  },
+  "10": {
+    "question": "Quel rôle soumet des demandes de service ?",
+    "answers": {
+      "A": "L'utilisateur ou son représentant autorisé",
+      "B": "Le client ou son représentant autorisé",
+      "C": "Le sponsor ou son représentant autorisé",
+      "D": "Le fournisseur ou son représentant autorisé"
+    },
+    "good": "A"
+  },
+  "11": {
+    "question": "Quelle pratique propose un point de contact unique pour les utilisateurs ?",
+    "answers": {
+      "A": "La gestion des incidents",
+      "B": "L'habilitation des changements",
+      "C": "Le centre de services",
+      "D": "La gestion des demandes de service"
+    },
+    "good": "C"
+  },
+  "12": {
+    "question": "Quel principe directeur recommande de prendre en considération les quatre dimensions de la gestion des services ?",
+    "answers": {
+      "A": "Penser et travailler de façon holistique",
+      "B": "Progresser par itérations avec des retours",
+      "C": "Privilégier la valeur",
+      "D": "Opter pour la simplicité et rester pratique"
+    },
+    "good": "A"
+  },
+  "13": {
+    "question": "Laquelle des options suivantes est supportée par la pratique de \"gestion des demandes de service\" ?",
+    "answers": {
+      "A": "Une demande d'autorisation d'un changement qui pourrait avoir un impact sur un service",
+      "B": "Une demande d'un utilisateur concernant quelque chose qui fait partie intégrante de la fourniture normale des services",
+      "C": "Une demande de restauration du service après une interruption de service",
+      "D": "Une demande d'investigation sur la cause de plusieurs incidents connexes"
+    },
+    "good": "B"
+  },
+  "14": {
+    "question": "Quelle pratique relève de la responsabilité de chacun au sein de l'organisation ?",
+    "answers": {
+      "A": "La gestion des niveaux de service",
+      "B": "L'habilitation des changements",
+      "C": "La gestion des problèmes",
+      "D": "L'amélioration continue"
+    },
+    "good": "D"
+  },
+  "15": {
+    "question": "Identifier le mot manquant dans la phrase suivante : Le but de la pratique de \"gestion de la sécurité de l'information\" est de [?] les informations de l'organisation",
+    "answers": {
+      "A": "stocker",
+      "B": "fournir",
+      "C": "vérifier",
+      "D": "protéger"
+    },
+    "good": "D"
+  },
+  "16": {
+    "question": "Quel principe directeur recommande de collecter les données avant de déterminer ce qui peut être réutilisé ?",
+    "answers": {
+      "A": "Privilégier la valeur",
+      "B": "Commencer là où vous êtes",
+      "C": "Opter pour la simplicité et rester pratique",
+      "D": "Progresser par itérations avec des retours"
+    },
+    "good": "B"
+  },
+  "17": {
+    "question": "Laquelle des options suivantes N'est habituellement PAS incluse dans la gestion des incidents ?",
+    "answers": {
+      "A": "Des scripts pour recueillir des informations initiales sur les incidents",
+      "B": "Des procédures formalisées pour enregistrer les incidents",
+      "C": "Des procédures détaillées pour diagnostiquer les incidents",
+      "D": "Le recours à des connaissances spécialisées pour les incidents compliqués"
+    },
+    "good": "C"
+  },
+  "18": {
+    "question": "Laquelle des options suivantes décrit le mieux la nature des principes directeurs ?",
+    "answers": {
+      "A": "Les principes directeurs peuvent guider une organisation en toutes circonstances",
+      "B": "Chaque principe directeur impose des actions et des décisions spécifiques",
+      "C": "Une organisation choisit et adopte un seul des sept principes directeurs",
+      "D": "Les principes directeurs décrivent les processus que toutes les organisations doivent adopter"
+    },
+    "good": "A"
+  },
+  "19": {
+    "question": "Quel énoncé sur l'autorité de changement est CORRECT ?",
+    "answers": {
+      "A": "Une seule autorité de changement doit être assignée pour autoriser tous les types et les modèles de changements",
+      "B": "Une autorité de changement doit être assignée pour chaque type et chaque modèle de changement",
+      "C": "Les changements normaux sont pré-autorisés et ne requièrent pas l'intervention d'une autorité de changement",
+      "D": "Les changements urgents peuvent être implémentés sans l'autorisation d'une autorité de changement"
+    },
+    "good": "B"
+  },
+  "20": {
+    "question": "Quelle pratique a pour but de mettre à disposition des services et des fonctionnalités nouveaux ou modifiés ?",
+    "answers": {
+      "A": "Le contrôle des changements",
+      "B": "La gestion des demandes de services",
+      "C": "La gestion des mises en production",
+      "D": "La gestion des déploiements"
+    },
+    "good": "C"
+  },
+  "21": {
+    "question": "Quelle activité de la chaîne de valeur permet de s'assurer que les personnes comprennent la vision de l'organisation ?",
+    "answers": {
+      "A": "Améliorer",
+      "B": "Planifier",
+      "C": "Fournir et assurer le support",
+      "D": "Obtenir/construire"
+    },
+    "good": "B"
+  },
+  "22": {
+    "question": "Quel énoncé sur les activités de la chaîne de valeur est CORRECT ?",
+    "answers": {
+      "A": "Chaque pratique appartient à une activité spécifique de la chaîne de valeur",
+      "B": "Une combinaison spécifique d'activités de la chaîne de valeur et de pratiques constitue une relation de service",
+      "C": "Les activités de la chaîne de valeur constituent un flux de travail unique qui permet de créer de la valeur",
+      "D": "Chaque activité de la chaîne de valeur contribue à la chaîne de valeur en transformant des entrées spécifiques en livrables"
+    },
+    "good": "D"
+  },
+  "23": {
+    "question": "Quel est le but de la pratique de \"gestion des fournisseurs\" ?",
+    "answers": {
+      "A": "S'assurer que les fournisseurs de l'organisation et leurs performances sont gérés de manière appropriée afin de",
+      "B": "Aligner les pratiques et services de l'organisation sur les besoins business évolutifs via l'identification et l'amélioration",
+      "C": "S'assurer que les fournisseurs de l'organisation et leurs performances sont gérés de manière appropriée et aux niveaux",
+      "D": "S'assurer que des informations exactes et fiables sur la configuration des services des fournisseurs sont disponibles"
+    },
+    "good": "A"
+  },
+  "24": {
+    "question": "Quels sont les deux types de coûts que le consommateur d'un service doit évaluer ?",
+    "answers": {
+      "A": "Le prix du service et le coût de la création du service",
+      "B": "Les coûts supprimés par le service et les coûts imposés par le service",
+      "C": "Le coût de la fourniture du service et le coût de l'amélioration du service",
+      "D": "Le coût du logiciel et le coût du matériel"
+    },
+    "good": "B"
+  },
+  "25": {
+    "question": "Laquelle des options suivantes est un but de la pratique du \"centre de services\" ?",
+    "answers": {
+      "A": "Réduire la probabilité et l'impact des incidents en identifiant leurs causes réelles ou potentielles",
+      "B": "Maximiser le nombre de changements informatiques réussis en vérifiant que les risques sont correctement évalués",
+      "C": "Capturer la demande de résolution d'incidents et les demandes de services",
+      "D": "Définir des cibles claires basées sur le business, en matière de performances des services"
+    },
+    "good": "C"
+  },
+  "26": {
+    "question": "De quelle façon une organisation doit-elle adopter des méthodes d'amélioration continue ?",
+    "answers": {
+      "A": "En utilisant une nouvelle méthode pour chaque amélioration gérée par l'organisation",
+      "B": "En choisissant quelques méthodes clés pour les types d'améliorations gérées par l'organisation",
+      "C": "En renforçant l'aptitude à utiliser autant de méthodes d'amélioration que possible",
+      "D": "En choisissant une seule méthode pour toutes les améliorations gérées par l'organisation"
+    },
+    "good": "B"
+  },
+  "27": {
+    "question": "Quel concept ITIL décrit la gouvernance ?",
+    "answers": {
+      "A": "Les sept principes directeurs",
+      "B": "Les quatre dimensions de la gestion des services",
+      "C": "La chaîne de valeur des services",
+      "D": "Le système de valeur des services"
+    },
+    "good": "D"
+  },
+  "28": {
+    "question": "Laquelle des options suivantes est une recommandation de la pratique du \"centre de services\" ?",
+    "answers": {
+      "A": "Les centres de services doivent éviter de recourir à l'automatisation",
+      "B": "Les centres de services doivent être très techniques",
+      "C": "Les centres de services doivent comprendre l'organisation dans son ensemble",
+      "D": "Les centres de services doivent être constitués d'une équipe physique basée dans un même endroit fixe"
+    },
+    "good": "C"
+  },
+  "29": {
+    "question": "Quel principe directeur recommande d'organiser le travail en parties plus petites et gérables qui peuvent être exécutées et effectuées dans un délai convenable ?",
+    "answers": {
+      "A": "Privilégier la valeur",
+      "B": "Commencer là où vous êtes",
+      "C": "Progresser par itérations avec des retours",
+      "D": "Collaborer et promouvoir la visibilité"
+    },
+    "good": "C"
+  },
+  "30": {
+    "question": "Qu'est-ce qu'un changement standard ?",
+    "answers": {
+      "A": "Un changement préautorisé qui est bien compris et intégralement documenté",
+      "B": "Un changement qui doit être évalué, autorisé et planifié par une autorité de changement",
+      "C": "Un changement qui ne requiert pas d'évaluation des risques étant donné qu'il est nécessaire à la résolution d'un incident",
+      "D": "Un changement évalué, autorisé et planifié dans le cadre d'une \"amélioration continue\""
+    },
+    "good": "A"
+  },
+  "31": {
+    "question": "Que se passe-t-il lorsqu'une solution de contournement devient la façon permanente de traiter un problème ne pouvant pas être résolu de façon rentable ?",
+    "answers": {
+      "A": "Une demande de changement est soumise au contrôle des changements",
+      "B": "La gestion des problèmes restaure le service dès que possible",
+      "C": "Le problème conserve l'état d'erreur connue",
+      "D": "L'enregistrement du problème est supprimé"
+    },
+    "good": "C"
+  },
+  "32": {
+    "question": "Quelle est la définition d'un changement ?",
+    "answers": {
+      "A": "Ajouter, modifier ou supprimer tout ce qui pourrait avoir un effet direct ou indirect sur les services",
+      "B": "S'assurer que des informations exactes et fiables sur la configuration des services sont disponibles",
+      "C": "Mettre à disposition des fonctionnalités ou des services nouveaux ou modifiés",
+      "D": "Déplacer des matériels, logiciels nouveaux ou modifiés ou tout autre composant vers des environnements de production"
+    },
+    "good": "A"
+  },
+  "33": {
+    "question": "Quelle est la définition d'un événement ?",
+    "answers": {
+      "A": "Tout changement d'état significatif pour la gestion d'un service ou de tout autre élément de configuration",
+      "B": "Tout composant qui doit être géré afin de fournir un service informatique",
+      "C": "L'interruption non planifiée d'un service ou la réduction de la qualité d'un service",
+      "D": "Tout composant présentant une certaine valeur financière, qui est susceptible de contribuer à la fourniture de"
+    },
+    "good": "A"
+  },
+  "34": {
+    "question": "Quelle option décrit des résultats ?",
+    "answers": {
+      "A": "Éléments livrables tangibles ou intangibles",
+      "B": "Fonctionnalité offerte par un produit ou un service",
+      "C": "Résultats souhaités par une partie prenante",
+      "D": "Configuration des ressources d'une organisation"
+    },
+    "good": "C"
+  },
+  "35": {
+    "question": "Laquelle des options suivantes NE constitue PAS un élément clé de la dimension \"information et technologie\" ?",
+    "answers": {
+      "A": "Sécurité et conformité",
+      "B": "Systèmes de communication et bases de connaissances",
+      "C": "Systèmes de gestion du flux de travail et systèmes d'inventaire",
+      "D": "Rôles et responsabilités"
+    },
+    "good": "D"
+  },
+  "36": {
+    "question": "Quelles pratiques sont généralement impliquées dans l'implémentation de la résolution d'un problème ?\n1. L'amélioration continue\n2. La gestion des demandes de service\n3. La gestion des niveaux de service\n4. Le contrôle des changements",
+    "answers": {
+      "A": "1 et 2",
+      "B": "2 et 3",
+      "C": "3 et 4",
+      "D": "1 et 4"
+    },
+    "good": "D"
+  },
+  "37": {
+    "question": "Laquelle des options suivantes constitue un élément clé du principe directeur \"opter pour la simplicité et rester pratique\" ?",
+    "answers": {
+      "A": "Essayer de créer une solution pour chaque exception",
+      "B": "Comprendre comment chaque élément contribue à la création de valeur",
+      "C": "Ignorer les objectifs contradictoires des différentes parties prenantes",
+      "D": "Commencer par une solution complexe, puis simplifier"
+    },
+    "good": "B"
+  },
+  "38": {
+    "question": "Que faut-il faire en premier lieu lorsque l'on applique le principe directeur \"privilégier la valeur\" ?",
+    "answers": {
+      "A": "Identifier les résultats facilités par le service",
+      "B": "Identifier tous les fournisseurs et les partenaires impliqués dans le service",
+      "C": "Déterminer qui est le consommateur du service dans chaque situation",
+      "D": "Déterminer le coût de la fourniture du service"
+    },
+    "good": "C"
+  },
+  "39": {
+    "question": "Un fournisseur de services décrit un package qui comprend un ordinateur portable fourni avec des logiciels, des licences et un support. De quelle option ce package est-il un exemple ?",
+    "answers": {
+      "A": "Valeur",
+      "B": "Résultat",
+      "C": "Garantie",
+      "D": "Offre de service"
+    },
+    "good": "D"
+  },
+  "40": {
+    "question": "Quelle est la définition d'une garantie ?",
+    "answers": {
+      "A": "Élément livrable tangible ou intangible issu d'une activité",
+      "B": "Assurance qu'un produit ou service répondra aux exigences convenues",
+      "C": "Événement potentiel susceptible d'entraîner un préjudice ou une perte, ou d'entraver l'atteinte des objectifs",
+      "D": "Fonctionnalité offerte par un produit ou un service pour satisfaire un besoin particulier"
+    },
+    "good": "B"
+  },
+  "41": {
+    "question": "Quel est l'effet de l'automatisation accrue sur la pratique \"centre de services\" ?",
+    "answers": {
+      "A": "Meilleure capacité à se concentrer sur l'expérience client lorsqu'un contact personnel est nécessaire",
+      "B": "Diminution des enregistrements et des résolutions d'incidents en libre-service",
+      "C": "Capacité accrue de se concentrer sur la réparation des technologies au lieu de supporter les personnes",
+      "D": "Élimination du besoin d'escalader les incidents aux équipes de support"
+    },
+    "good": "A"
+  },
+  "42": {
+    "question": "Quel terme décrit la fonctionnalité offerte par un service ?",
+    "answers": {
+      "A": "Coût",
+      "B": "Utilité",
+      "C": "Garantie",
+      "D": "Risque"
+    },
+    "good": "B"
+  },
+  "43": {
+    "question": "Quel est le but de la pratique \"surveillance et gestion des événements\" ?",
+    "answers": {
+      "A": "S'assurer que des informations fiables et précises sur la configuration des services sont disponibles au moment et à l'endroit requis",
+      "B": "Observer systématiquement des services et des composants de service, et enregistrer et signaler certains changements d'état identifiés",
+      "C": "Protéger les informations nécessaires à l'organisation pour mener son business",
+      "D": "Réduire l'impact négatif des incidents, en rétablissant le fonctionnement normal des services aussi rapidement que possible"
+    },
+    "good": "B"
+  },
+  "44": {
+    "question": "Sur quoi doivent être basées toutes les décisions d'amélioration continue ?",
+    "answers": {
+      "A": "Détails sur la façon dont les services sont mesurés",
+      "B": "Données précises et rigoureusement analysées",
+      "C": "Tableau de bord équilibré et mis à jour",
+      "D": "Évaluation de maturité récente"
+    },
+    "good": "B"
+  },
+  "45": {
+    "question": "Comment les activités de la chaîne de valeur transforment-elles les intrants en livrables ?",
+    "answers": {
+      "A": "En déterminant la demande de services",
+      "B": "En utilisant une combinaison de pratiques",
+      "C": "En utilisant une seule équipe fonctionnelle",
+      "D": "En implémentant l'automatisation des processus"
+    },
+    "good": "B"
+  },
+  "46": {
+    "question": "Comment l'implication des clients contribue-t-elle à la pratique de \"gestion des niveaux de service\" ?\n1. Elle permet de capturer les informations servant de base aux mesures\n2. Elle s'assure que l'organisation atteint les niveaux de service définis\n3. Elle définit les flux de travail pour les demandes de service\n4. Elle supporte les discussions sur les progrès",
+    "answers": {
+      "A": "1 et 2",
+      "B": "2 et 3",
+      "C": "3 et 4",
+      "D": "1 et 4"
+    },
+    "good": "D"
+  },
+  "47": {
+    "question": "Quel est le point de départ de l'optimisation ?",
+    "answers": {
+      "A": "Obtenir l'implication des parties prenantes",
+      "B": "Comprendre la vision et les objectifs de l'organisation",
+      "C": "Déterminer où l'impact le plus positif se produirait",
+      "D": "Standardiser les pratiques et les services"
+    },
+    "good": "B"
+  },
+  "48": {
+    "question": "Identifier les mots manquants dans la phrase suivante : [?] a pour but de s'assurer que l'organisation co-crée continuellement de la valeur avec toutes les parties prenantes, conformément aux objectifs de l'organisation",
+    "answers": {
+      "A": "Le principe directeur \"privilégier la valeur\"",
+      "B": "Les quatre dimensions de la gestion des services",
+      "C": "Le système de valeur des services",
+      "D": "La pratique \"gestion des demandes de service\""
+    },
+    "good": "C"
+  },
+  "49": {
+    "question": "Quelle pratique supporte la gestion des retours, des compliments et des plaintes des utilisateurs ?",
+    "answers": {
+      "A": "Le contrôle des changements",
+      "B": "La gestion des demandes de service",
+      "C": "La gestion des problèmes",
+      "D": "La gestion des incidents"
+    },
+    "good": "B"
+  },
+  "50": {
+    "question": "Quelle activité effectuée conjointement par le fournisseur de services et le consommateur de service s'assure d'une co-création continue de valeur ?",
+    "answers": {
+      "A": "La fourniture de service",
+      "B": "La consommation de service",
+      "C": "L'offre de service",
+      "D": "La gestion des relations de service"
+    },
+    "good": "D"
+  },
+  "51": {
+    "question": "Quelle pratique peut comporter le déclenchement d'une reprise après une catastrophe ?",
+    "answers": {
+      "A": "La gestion des incidents",
+      "B": "La gestion des demandes de service",
+      "C": "La gestion des niveaux de service",
+      "D": "La gestion des actifs informatiques"
+    },
+    "good": "A"
+  },
+  "52": {
+    "question": "Quel type de changement est le PLUS susceptible d'être géré par la pratique \"gestion des demandes de service\" ?",
+    "answers": {
+      "A": "Un changement normal",
+      "B": "Un changement urgent",
+      "C": "Un changement standard",
+      "D": "Un changement applicatif"
+    },
+    "good": "C"
+  },
+  "53": {
+    "question": "Quel principe directeur met l'accent sur la nécessité de comprendre le flux de travail en cours, d'identifier les goulots d'étranglement et de découvrir les gaspillages ?",
+    "answers": {
+      "A": "Privilégier la valeur",
+      "B": "Collaborer et promouvoir la visibilité",
+      "C": "Penser et travailler de façon holistique",
+      "D": "Opter pour la simplicité et rester pratique"
+    },
+    "good": "B"
+  },
+  "54": {
+    "question": "Laquelle des options suivantes est un moyen de permettre la co-création de valeur en facilitant des résultats que les clients veulent atteindre",
+    "answers": {
+      "A": "Un service",
+      "B": "Un livrable",
+      "C": "Une pratique",
+      "D": "L'amélioration continue"
+    },
+    "good": "A"
+  },
+  "55": {
+    "question": "Quel énoncé sur l'autorisation des changements est CORRECT ?",
+    "answers": {
+      "A": "Une autorité de changement doit être affectée à chaque type et à chaque modèle de changement",
+      "B": "Centraliser les autorisations de changement auprès d'une seule personne est le mode d'autorisation le plus efficace",
+      "C": "L’autorisation des changements normaux doit être accélérée pour s'assurer qu’ils soient implémentés rapidement",
+      "D": "Les changements standards présentent un risque élevé et doivent être autorisés au plus haut niveau de l’autorité de changement"
+    },
+    "good": "A"
+  },
+  "56": {
+    "question": "Quelle dimension de la gestion des services prend en compte la gouvernance, la gestion et la communication ?",
+    "answers": {
+      "A": "Organisations et personnes",
+      "B": "Information et technologie",
+      "C": "Partenaires et fournisseurs",
+      "D": "Flux de valeur et processus"
+    },
+    "good": "A"
+  },
+  "57": {
+    "question": "Identifier les mots manquants dans la phrase suivante : Une erreur connue est un problème qui a été [?] et n'a pas été résolu",
+    "answers": {
+      "A": "enregistré",
+      "B": "analysé",
+      "C": "escaladé",
+      "D": "clos"
+    },
+    "good": "B"
+  },
+  "58": {
+    "question": "Quel énoncé sur les erreurs connues et les problèmes est CORRECT ?",
+    "answers": {
+      "A": "Une erreur connue est l'état attribué à un problème une fois ce dernier analysé",
+      "B": "Une erreur connue est la cause d'un ou de plusieurs problèmes",
+      "C": "Les erreurs connues entraînent des vulnérabilités, les problèmes entraînent des incidents",
+      "D": "Les erreurs connues sont gérées par le personnel technique, les problèmes sont gérés par les équipes de gestion des services"
+    },
+    "good": "A"
+  },
+  "59": {
+    "question": "De quoi dépend la pratique de \"gestion des demandes de service\" pour une efficience maximale ?",
+    "answers": {
+      "A": "Des compliments et des réclamations",
+      "B": "Des outils en libre-service",
+      "C": "Des processus et des procédures",
+      "D": "De la gestion des incidents"
+    },
+    "good": "C"
+  },
+  "60": {
+    "question": "Quel énoncé sur la pratique \"centre de services\" est CORRECT ?",
+    "answers": {
+      "A": "Il fournit un lien entre les parties prenantes aux niveaux stratégiques et tactiques",
+      "B": "Il procède à l'évaluation et à l'autorisation des changements",
+      "C": "Il enquête sur l'origine des incidents",
+      "D": "Il requiert une compréhension pratique des processus business"
+    },
+    "good": "D"
+  },
+  "61": {
+    "question": "Quelle pratique s'assure de la disponibilité d'informations fiables et précises sur les éléments de configuration et les relations entre ces derniers?",
+    "answers": {
+      "A": "La gestion de la configuration des services",
+      "B": "Le centre de services",
+      "C": "La gestion des actifs informatiques",
+      "D": "La surveillance et la gestion des événements"
+    },
+    "good": "A"
+  },
+  "62": {
+    "question": "Quelle pratique a pour but de rétablir aussi rapidement que possible le fonctionnement normal des services ?",
+    "answers": {
+      "A": "La gestion des fournisseurs",
+      "B": "La gestion des déploiements",
+      "C": "La gestion des problèmes",
+      "D": "La gestion des incidents"
+    },
+    "good": "D"
+  },
+  "63": {
+    "question": "Identifier les mots manquants dans la phrase suivante : Un client est une personne qui définit les exigences relatives à un service et assume la responsabilité [?] de la consommation du service",
+    "answers": {
+      "A": "des livrables",
+      "B": "des résultats",
+      "C": "des coûts",
+      "D": "des risques"
+    },
+    "good": "B"
+  },
+  "64": {
+    "question": "Quel principe directeur décrit l'importance d'agir plutôt que de consacrer beaucoup de temps à l'analyse des différentes options?",
+    "answers": {
+      "A": "Optimiser et automatiser",
+      "B": "Commencer là où vous êtes",
+      "C": "Privilégier la valeur",
+      "D": "Progresser par itération avec des retours"
+    },
+    "good": "D"
+  },
+  "65": {
+    "question": "Que faut-il faire pour chaque problème ?",
+    "answers": {
+      "A": "Il doit faire l'objet d'un diagnostic pour identifier les solutions possibles",
+      "B": "Sa priorité doit être établie en fonction de son impact potentiel et de sa probabilité",
+      "C": "Il doit être résolu pour pouvoir être clos",
+      "D": "Une solution de contournement doit être trouvée pour réduire son impact"
+    },
+    "good": "B"
+  },
+  "66": {
+    "question": "Comment une organisation doit-elle inclure des fournisseurs tiers dans l'amélioration continue de ses services ?",
+    "answers": {
+      "A": "En s'assurant que les fournisseurs expliquent en détail leur approche d'amélioration des services dans leurs contrats",
+      "B": "En exigeant la preuve que les fournisseurs utilisent des méthodes de développement agiles",
+      "C": "En exigeant la preuve que les fournisseurs implémentent toutes les améliorations à l'aide de pratiques de gestion des projets",
+      "D": "En s'assurant que toutes les activités de gestion des problèmes des fournisseurs entraînent des améliorations"
+    },
+    "good": "A"
+  },
+  "67": {
+    "question": "Quelles considérations influencent la stratégie fournisseurs d'une organisation ?",
+    "answers": {
+      "A": "Les contrats et accords",
+      "B": "Le type de coopération avec les fournisseurs",
+      "C": "La culture d'entreprise de l'organisation",
+      "D": "Le niveau de formalité"
+    },
+    "good": "C"
+  },
+  "68": {
+    "question": "Qu'est-ce qu'un problème ?",
+    "answers": {
+      "A": "L'ajout ou la modification de tout ce qui pourrait avoir un effet sur les services",
+      "B": "Tout changement d'état significatif pour la gestion d'un élément de configuration",
+      "C": "La cause réelle ou potentielle d'un ou de plusieurs incidents",
+      "D": "La réduction imprévue de la qualité d'un service"
+    },
+    "good": "C"
+  },
+  "69": {
+    "question": "Quel est le but de la pratique \"gestion des relations\" ?",
+    "answers": {
+      "A": "Aligner les pratiques et services de l'organisation sur les besoins business évolutifs",
+      "B": "Établir et entretenir des liens entre une organisation et ses parties prenantes aux niveaux stratégiques et tactiques",
+      "C": "Réduire la probabilité et l'impact des incidents, en identifiant leur cause réelle ou potentielle et en gérant les solutions de contournement et les erreurs connues",
+      "D": "Réduire l'impact négatif des incidents, en rétablissant le fonctionnement normal des services aussi rapidement que possible"
+    },
+    "good": "B"
+  },
+  "70": {
+    "question": "Laquelle des options suivantes vise à aider les organisations à adopter et adapter les conseils ITIL ?",
+    "answers": {
+      "A": "Les quatre dimensions de la gestion des services",
+      "B": "Les principes directeurs",
+      "C": "La chaîne de valeur des services",
+      "D": "Les pratiques"
+    },
+    "good": "B"
+  },
+  "71": {
+    "question": "Qu’est-ce qu’un livrable ?",
+    "answers": {
+      "A": "Un changement d'état qui est significatif pour la gestion d'un élément de configuration",
+      "B": "Un événement possible susceptible d'entraîner un préjudice ou une perte",
+      "C": "Un résultat pour une partie prenante",
+      "D": "Quelque chose qui est créé à la suite d'une activité"
+    },
+    "good": "D"
+  },
+  "72": {
+    "question": "Quelle est la raison pour laquelle un ensemble équilibré de métriques de service est utilisé ?",
+    "answers": {
+      "A": "Pour réduire le nombre de métriques à collecter",
+      "B": "Pour rapporter chaque élément de service séparément",
+      "C": "Pour fournir une perspective des services en fonction des résultats",
+      "D": "Pour faciliter la collecte automatique de métriques"
+    },
+    "good": "C"
+  },
+  "73": {
+    "question": "Pourquoi les incidents doivent-il être priorisés ?",
+    "answers": {
+      "A": "Pour permettre l'appariement automatisé des incidents aux problèmes ou aux erreurs connues",
+      "B": "Pour identifier l'équipe de support vers laquelle l'incident doit être escaladé",
+      "C": "Pour s'assurer que les incidents ayant le plus fort impact business sont résolus en premier",
+      "D": "Pour encourager un haut niveau de collaboration au sein des équipes et entre ces dernières"
+    },
+    "good": "C"
+  },
+  "74": {
+    "question": "Quelle pratique a pour but d'aider l'organisation à optimiser la valeur, maîtriser les coûts et gérer les risques ?",
+    "answers": {
+      "A": "La gestion des relations",
+      "B": "La gestion des actifs informatiques",
+      "C": "La gestion des mises en production",
+      "D": "Le centre de services"
+    },
+    "good": "B"
+  },
+  "75": {
+    "question": "Pourquoi le personnel du centre de services doit-il détecter les difficultés récurrentes ?",
+    "answers": {
+      "A": "Pour mieux identifier les problèmes",
+      "B": "Pour escalader les incidents à la bonne équipe de support",
+      "C": "Pour assurer une gestion efficace des demandes de service",
+      "D": "Pour impliquer la bonne autorité de changement"
+    },
+    "good": "A"
+  },
+  "76": {
+    "question": "Quelle activité de la chaîne de valeur communique l'état actuel des quatre dimensions de la gestion des services ?",
+    "answers": {
+      "A": "Améliorer",
+      "B": "Impliquer",
+      "C": "Obtenir/construire",
+      "D": "Planifier"
+    },
+    "good": "D"
+  },
+  "77": {
+    "question": "Quel principe directeur se préoccupe PRINCIPALEMENT des recettes et de la croissance du consommateur ?",
+    "answers": {
+      "A": "Opter pour la simplicité et rester pratique",
+      "B": "Optimiser et automatiser",
+      "C": "Progresser par itération avec des retours",
+      "D": "Privilégier la valeur"
+    },
+    "good": "D"
+  },
+  "78": {
+    "question": "Quelle pratique fournit une visibilité sur les services de l'organisation en recueillant des données et en produisant des rapports sur la fourniture de services ?",
+    "answers": {
+      "A": "Le centre de services",
+      "B": "La gestion des niveaux de service",
+      "C": "La gestion des demandes de services",
+      "D": "La gestion de la configuration des services"
+    },
+    "good": "B"
+  },
+  "79": {
+    "question": "Quel est le MEILLEUR exemple d'un changement urgent ?",
+    "answers": {
+      "A": "L'implémentation d'une nouvelle mise en production planifiée d'application logicielle",
+      "B": "Une mise à niveau informatique à faible risque, implémentée en tant que demande de service",
+      "C": "L'implémentation d'un correctif de sécurité sur une application logicielle critique",
+      "D": "Une implémentation matérielle et logicielle majeure et planifiée"
+    },
+    "good": "C"
+  },
+  "80": {
+    "question": "Quel principe directeur recommande d'évaluer l'état actuel et de décider ce qui peut être réutilisé ?",
+    "answers": {
+      "A": "Privilégier la valeur",
+      "B": "Commencer là où vous êtes",
+      "C": "Collaborer et promouvoir la visibilité",
+      "D": "Progresser par itération avec des retours"
+    },
+    "good": "B"
+  },
+  "81": {
+    "question": "Laquelle des options suivantes fournit à l’utilisateur un accès au système ?",
+    "answers": {
+      "A": "Les exigences de service",
+      "B": "L'accord de service",
+      "C": "La consommation du service",
+      "D": "La fourniture du service"
+    },
+    "good": "D"
+  },
+  "82": {
+    "question": "Quel principe est axé sur les consommateurs de services ?",
+    "answers": {
+      "A": "Commencer là où vous êtes",
+      "B": "Optimiser et automatiser",
+      "C": "Opter pour la simplicité",
+      "D": "Privilégier la valeur"
+    },
+    "good": "D"
+  },
+  "83": {
+    "question": "Qu'est-ce qui est important pour un \"registre d'amélioration continue\" ?",
+    "answers": {
+      "A": "La documentation, l'évaluation et la priorisation des idées d'amélioration",
+      "B": "Les idées d'amélioration émanant de plusieurs sources sont conservées dans un seul et même registre d'amélioration continue",
+      "C": "Les idées d'amélioration qui ne sont pas exécutées immédiatement sont supprimées du registre d'amélioration continue",
+      "D": "Les idées d'amélioration sont testées, financées et approuvées"
+    },
+    "good": "A"
+  },
+  "84": {
+    "question": "Quelle activité participe à l'étape \"Où sommes-nous actuellement ?\" du modèle d' \"amélioration continue\" ?",
+    "answers": {
+      "A": "Exécuter les actions d'amélioration",
+      "B": "Effectuer des évaluations de bases de référence",
+      "C": "Définir le plan d'amélioration",
+      "D": "Comprendre la mission du business"
+    },
+    "good": "B"
+  },
+  "85": {
+    "question": "De quelle façon le consommateur d'un service contribue-t-il à la réduction des risques ?",
+    "answers": {
+      "A": "En payant pour le service",
+      "B": "En gérant les serveurs matériels",
+      "C": "En communiquant les contraintes",
+      "D": "En gérant la disponibilité du personnel"
+    },
+    "good": "C"
+  },
+  "86": {
+    "question": "Identifier le mot manquant dans la phrase suivante : L'utilisation des [?] doit supporter et non remplacer ce qui est observé lorsque le principe directeur \"commencer là où vous etes\" est utilisé",
+    "answers": {
+      "A": "mesures",
+      "B": "outils",
+      "C": "plans",
+      "D": "processus"
+    },
+    "good": "A"
+  },
+  "87": {
+    "question": "Quel moyen permet la co-création de valeur en facilitant les résultats que les clients veulent atteindre, sans que ces derniers ne soient contraints de gérer les coûts et les risques spécifiques ?",
+    "answers": {
+      "A": "La gestion des services",
+      "B": "L'amélioration continue",
+      "C": "Un service",
+      "D": "Un actif informatique"
+    },
+    "good": "C"
+  },
+  "88": {
+    "question": "Quelles sont les trois phases de la \"gestion des problèmes\" ?",
+    "answers": {
+      "A": "Enregistrement des problèmes, classification des problèmes, résolution des problèmes",
+      "B": "Gestion des incidents, gestion des problèmes, contrôle des changements",
+      "C": "Identification des problèmes, contrôle des problèmes, contrôle des erreurs",
+      "D": "Analyse des problèmes, identification des erreurs, résolution des incidents"
+    },
+    "good": "C"
+  },
+  "89": {
+    "question": "Quel est le MEILLEUR exemple d'un changement standard ?",
+    "answers": {
+      "A": "Le passage en revue et l'autorisation d'un changement demandé par un client",
+      "B": "L'implémentation d'un correctif logiciel essentiel en réponse aux problématiques de sécurité d'un fournisseur",
+      "C": "L'installation d'une application logicielle en réponse à une demande de service",
+      "D": "Le remplacement d'un composant en réponse à un incident majeur"
+    },
+    "good": "C"
+  },
+  "90": {
+    "question": "Quelle dimension tient compte de la façon dont les actifs de connaissances doivent être protégés ?",
+    "answers": {
+      "A": "Organisations et personnes",
+      "B": "Partenaires et fournisseurs",
+      "C": "Information et technologie",
+      "D": "Flux de valeur et processus"
+    },
+    "good": "C"
+  },
+  "91": {
+    "question": "Comment les informations relatives aux problèmes et aux erreurs connues contribuent-elles à la \"gestion des incidents\" ?",
+    "answers": {
+      "A": "Elles permettent un diagnostic rapide et efficace des incidents",
+      "B": "Elles éliminent le besoin de mises à jour clients régulières",
+      "C": "Elles éliminent le besoin de collaborer au cours de la résolution de l'incident",
+      "D": "Elles permettent la réévaluation des erreurs connues"
+    },
+    "good": "A"
+  },
+  "92": {
+    "question": "Quelle est la MEILLEURE description du but de l'activité de la chaîne de valeur \"améliorer\" ?",
+    "answers": {
+      "A": "Organiser une initiative d'amélioration significative en plusieurs petites initiatives",
+      "B": "Mettre à disposition des fonctionnalités ou des services nouveaux ou améliorés",
+      "C": "S'assurer d'une compréhension commune de la vision et de l'orientation des améliorations concernant les produits et les services",
+      "D": "Améliorer continuellement l'ensemble des produits et services à travers toutes les activité de la chaîne de valeur"
+    },
+    "good": "D"
+  },
+  "93": {
+    "question": "Que faut-il toujours faire avant qu'une activité ne soit automatisée ?",
+    "answers": {
+      "A": "Vérifier que l'activité a déjà été optimisée",
+      "B": "Vérifier que les nouvelles technologies appropriées ont bien été achetées",
+      "C": "S'assurer que la solution DevOps a été implémentée avec succès",
+      "D": "S'assurer que la solution permet d'éliminer la nécessité d'une intervention humaine"
+    },
+    "good": "A"
+  },
+  "94": {
+    "question": "Qu'est-ce que la garantie ?",
+    "answers": {
+      "A": "L'assurance qu'un produit ou service répondra aux exigences convenues",
+      "B": "La somme d'argent dépensée pour une activité ou une ressource spécifique",
+      "C": "La fonctionnalité offerte par un produit ou un service pour satisfaire un besoin particulier",
+      "D": "Les bénéfices, l’utilité et l’importance perçus de quelque chose"
+    },
+    "good": "A"
+  },
+  "95": {
+    "question": "Quelle pratique utilise des techniques telles que les analyses SWOT, les revues de tableaux de bord prospectifs et les evaluations de la maturité?",
+    "answers": {
+      "A": "La gestion des incidents",
+      "B": "La gestion des problèmes",
+      "C": "L'amélioration continue",
+      "D": "La gestion des demandes de service"
+    },
+    "good": "C"
+  },
+  "96": {
+    "question": "Qu'est-ce qui est défini par un changement d'état significatif pour la gestion d'un service informatique ?",
+    "answers": {
+      "A": "Événement",
+      "B": "Incident",
+      "C": "Problème",
+      "D": "Erreur connue"
+    },
+    "good": "A"
+  },
+  "97": {
+    "question": "Quel est le but de la pratique de \"gestion des relations\" ?",
+    "answers": {
+      "A": "Établir et entretenir des liens entre une organisation et ses parties prenantes",
+      "B": "Aligner les pratiques et les services de l'organisation sur les besoins business évolutifs",
+      "C": "Définir des cibles claires basées sur le business, en matière de performances des services",
+      "D": "Supporter la qualité convenue d'un service en gérant l'ensemble des demandes de service convenues et initiées par l'utilisateur"
+    },
+    "good": "A"
+  },
+  "98": {
+    "question": "Laquelle des options suivantes doit être enregistrée et gérée comme un problème ?",
+    "answers": {
+      "A": "Un utilisateur demande qu'on lui fournisse un ordinateur portable",
+      "B": "Un outil de surveillance détecte un changement d'état d'un service",
+      "C": "Une analyse de tendance affiche un nombre élevé d'incidents similaires",
+      "D": "Le besoin de prioriser une opportunité d'amélioration dans le cadre d'un processus d'amélioration continue"
+    },
+    "good": "C"
+  },
+  "99": {
+    "question": "Quelle pratique requiert que le personnel fasse preuve d'excellentes compétences en matière de service client tels que l'empathie et l'intelligence émotionnelle ?",
+    "answers": {
+      "A": "La gestion des problèmes",
+      "B": "La gestion des fournisseurs",
+      "C": "La gestion des mises en production",
+      "D": "Le centre de services"
+    },
+    "good": "D"
+  },
+  "100": {
+    "question": "Identifier le mot manquant dans la phrase suivante : Le but de la pratique de gestion de la configuration des services est de s'assurer que des informations exactes et fiables sur la configuration des services, et sur les [?] qui les supportent, sont disponibles au moment et à l'endroit requis",
+    "answers": {
+      "A": "fournisseurs",
+      "B": "éléments de configuration (CI)",
+      "C": "clients",
+      "D": "actifs"
+    },
+    "good": "B"
+  },
+  "101": {
+    "question": "Quel est le but de la pratique de \"gestion de la sécurité de l'information\" ?",
+    "answers": {
+      "A": "Protéger les informations nécessaires à l'organisation pour mener son business",
+      "B": "Observer les services et les composants de service",
+      "C": "S'assurer que des informations exactes et fiables sur la configuration des services sont disponibles quand et où elles sont requises",
+      "D": "Planifier et gérer le cycle de vie complet de tous les actifs informatiques"
+    },
+    "good": "A"
+  },
+  "102": {
+    "question": "Quelle pratique est propriétaire et gère les problématiques, les requêtes et les demandes des utilisateurs ?",
+    "answers": {
+      "A": "La gestion des incidents",
+      "B": "Le centre de services",
+      "C": "Le contrôle des changements",
+      "D": "La gestion des problèmes"
+    },
+    "good": "B"
+  },
+  "103": {
+    "question": "Quelle pratique a pour but de s'assurer que les fournisseurs de l'organisation et leurs performances sont gérés de manière appropriée afin de supporter l'approvisionnement continu en produits et services de qualité ?",
+    "answers": {
+      "A": "La gestion des mises en production",
+      "B": "La gestion des fournisseurs",
+      "C": "La gestion des services",
+      "D": "La gestion des relations"
+    },
+    "good": "B"
+  },
+  "104": {
+    "question": "Quand doit-on procéder à une évaluation complète des risques et à une autorisation pour un changement standard ?",
+    "answers": {
+      "A": "À chaque implémentation du changement standard",
+      "B": "Au moment de la création de la procédure utilisée pour le changement standard",
+      "C": "Au moins une fois par an",
+      "D": "Lorsqu'un changement urgent est demandé"
+    },
+    "good": "B"
+  },
+  "105": {
+    "question": "Que faut-il utiliser pour définir les attentes d'un utilisateur en termes de délais d'exécution des demandes ?",
+    "answers": {
+      "A": "Le délai indiqué par le client pour la fourniture du service",
+      "B": "La demande du client pour le service",
+      "C": "Le temps nécessaire pour fournir le service de façon réaliste",
+      "D": "Les niveaux de service sur fournisseur"
+    },
+    "good": "C"
+  },
+  "106": {
+    "question": "Une organisation demande à une partie prenante de passer en revue un changement planifié. Quel est ici le principe directeur qui est démontré ?",
+    "answers": {
+      "A": "Collaborer et promouvoir la visibilité",
+      "B": "Commencer là où vous êtes",
+      "C": "Privilégier la valeur",
+      "D": "Opter pour la simplicité et rester pratique"
+    },
+    "good": "A"
+  },
+  "107": {
+    "question": "Quelle approche est CORRECTE lorsqu'il s'agit d'appliquer le principe directeur \"opter pour la simplicité et rester pratique\" ?",
+    "answers": {
+      "A": "Ajouter des contrôles et des métriques uniquement lorsqu'ils sont nécessaires",
+      "B": "Concevoir les contrôles et les métriques en premier, puis supprimer ceux qui n'ajoutent pas de valeur",
+      "C": "Concevoir les contrôles et les métriques, puis les ajouter individuellement jusqu'à ce qu'ils soient tous implémentés",
+      "D": "Ajouter uniquement les contrôles et les métriques requis à des fins de conformité"
+    },
+    "good": "A"
+  },
+  "108": {
+    "question": "Quels DEUX énoncés concernant la pratique de \"gestion des demandes de service\" sont CORRECTS ?\n1. Les demandes de service font partie de la fourniture normale des services\n2. Les plaintes peuvent être traitées comme des demandes de service\n3. Les demandes de service résultent d'une défaillance du service\n4. Les changements normaux doivent être traités comme des demandes de service",
+    "answers": {
+      "A": "1 et 2",
+      "B": "2 et 3",
+      "C": "3 et 4",
+      "D": "1 et 4"
+    },
+    "good": "A"
+  },
+  "109": {
+    "question": "Quelle pratique permet d'améliorer la satisfaction des clients et des utilisateurs en réduisant l'impact négatif des interruptions de service ?",
+    "answers": {
+      "A": "La gestion des demandes de services",
+      "B": "La gestion des niveaux de service",
+      "C": "La gestion des incidents",
+      "D": "Le contrôle des changements"
+    },
+    "good": "C"
+  },
+  "110": {
+    "question": "Quelle dimension est LA PLUS concernée par ces compétences, aptitudes, rôles et responsabilités ?",
+    "answers": {
+      "A": "Organisations et personnes",
+      "B": "Information et technologie",
+      "C": "Partenaires et fournisseurs",
+      "D": "Flux de valeur et processus"
+    },
+    "good": "A"
+  },
+  "111": {
+    "question": "Quelles sont les DEUX situations dans lesquelles les principes directeurs d'ITIL doivent être pris en considération ? \n1. À chaque initiative\n2. Dans les relations avec toutes les parties prenantes\n3. Seulement lors des initiatives spécifiques pour lesquelles le principe s'avère pertinent\n4. Seulement dans les relations spécifiques avec des parties prenantes pour lesquelles le principe s'avère pertinent",
+    "answers": {
+      "A": "1 et 2",
+      "B": "2 et 3",
+      "C": "3 et 4",
+      "D": "1 et 4"
+    },
+    "good": "A"
+  },
+  "112": {
+    "question": "Laquelle des options suivantes est un but de la gestion des mises en production ?",
+    "answers": {
+      "A": "Protéger les informations de l'organisation",
+      "B": "Gérer les demandes de service initiées par l'utilisateur",
+      "C": "Mettre à disposition des services nouveaux et modifiés",
+      "D": "Déplacer du matériel et des logiciels vers des environnements de production"
+    },
+    "good": "C"
+  },
+  "113": {
+    "question": "Quels éléments font partie du système de valeur des services ?",
+    "answers": {
+      "A": "Fourniture de service, consommation de service, gestion des relations de service",
+      "B": "Gouvernance, chaîne de valeur des services, pratiques",
+      "C": "Résultats, utilité, garantie",
+      "D": "Valeur client, valeur des parties prenantes, organisation"
+    },
+    "good": "B"
+  },
+  "114": {
+    "question": "Laquelle des options suivantes décrit des changements normaux ?",
+    "answers": {
+      "A": "Changements à risque faible et pré-autorisés",
+      "B": "Changements devant être planifiés et évalués en suivant un processus",
+      "C": "Changements généralement initiés comme des demandes de service",
+      "D": "Changements devant être implémentés le plus tôt possible"
+    },
+    "good": "B"
+  },
+  "115": {
+    "question": "Laquelle des options suivantes est une exigence essentielle à la réussite d'un accord sur les niveaux de service ?",
+    "answers": {
+      "A": "Il doit être rédigé dans un langage juridique",
+      "B": "Il doit être rédigé de façon simple et facile à comprendre",
+      "C": "Il doit être fondé sur la perspective que le fournisseur de services a du service",
+      "D": "Il doit se rapporter à des métriques opérationnelles simples"
+    },
+    "good": "B"
+  },
+  "116": {
+    "question": "Quel énoncé sur les résultats est CORRECT ?",
+    "answers": {
+      "A": "Les résultats correspondent à un ou plusieurs services qui répondent aux besoins d’un consommateur de service",
+      "B": "Les fournisseurs de services permettent aux consommateurs de services d'atteindre des résultats",
+      "C": "Les résultats permettent aux consommateurs de services d'obtenir des livrables",
+      "D": "Aider les consommateurs de services à atteindre des résultats permet de réduire les coûts du fournisseur de services"
+    },
+    "good": "B"
+  },
+  "117": {
+    "question": "Qu'est-ce qui est défini par tout composant qui doit être géré afin de fournir un service informatique ?",
+    "answers": {
+      "A": "Une demande de service",
+      "B": "Un élément de configuration (CI)",
+      "C": "Un incident",
+      "D": "Un actif informatique"
+    },
+    "good": "B"
+  },
+  "118": {
+    "question": "Laquelle des options suivantes est une entrée externe dans la chaîne de valeur des services ?",
+    "answers": {
+      "A": "L'activité de la chaîne de valeur \"améliorer\"",
+      "B": "Un plan global",
+      "C": "Les besoins du client",
+      "D": "Les boucles de rétroaction"
+    },
+    "good": "C"
+  },
+  "119": {
+    "question": "Quelles sont les compétences les PLUS importantes requises pour le personnel du centre de services ?",
+    "answers": {
+      "A": "Compétences en matière d'analyse des incidents",
+      "B": "Compétences techniques",
+      "C": "Compétences en matière de résolution des problèmes",
+      "D": "Compétences en matière de gestion des fournisseurs"
+    },
+    "good": "A"
+  },
+  "120": {
+    "question": "Quelles métriques de niveaux de service sont les MEILLEURES pour mesurer l'expérience de l'utilisateur ?",
+    "answers": {
+      "A": "Les métriques seulement basées sur le système",
+      "B": "Les métriques correspondant au pourcentage de disponibilité d'un service",
+      "C": "Les métriques opérationnelles",
+      "D": "Les métriques relatives aux résultats définis"
+    },
+    "good": "D"
+  },
+  "121": {
+    "question": "Comment peut-on combiner les sept principes directeurs lorsqu'une organisation prend une décision ?",
+    "answers": {
+      "A": "En utilisant l'ensemble des principes directeurs de façon égale pour toutes les prises de décision",
+      "B": "En utilisant un ou deux principes directeurs qui sont les plus pertinents pour la décision spécifique",
+      "C": "En utilisant le principe \"privilégier la valeur\" ainsi qu'un ou deux autres principes pertinents pour la décision spécifique",
+      "D": "En passant en revue chaque principe directeur afin de décider dans quelle mesure il est pertinent pour la décision spécifique"
+    },
+    "good": "D"
+  },
+  "122": {
+    "question": "Quel principe directeur d'ITIL recommande d'utiliser les services, processus et outils existants lors de l'amélioration des services ?",
+    "answers": {
+      "A": "Progresser par itération avec des retours",
+      "B": "Opter pour la simplicité et rester pratique",
+      "C": "Commencer là où vous êtes",
+      "D": "Privilégier la valeur"
+    },
+    "good": "C"
+  },
+  "123": {
+    "question": "Laquelle des options suivantes décrit une approche CORRECTE d'une autorisation de changement ?",
+    "answers": {
+      "A": "Les changements inclus dans le calendrier des changements sont pré-autorisés et ne nécessitent pas d'autorisation supplémentaire",
+      "B": "Les changements normaux doivent être évalués et autorisés avant leur déploiement",
+      "C": "Les changements urgents doivent être autorisés par autant de personnes que possible afin de réduire les risques",
+      "D": "Les changements normaux sont généralement implémentés comme des demandes de service, puis autorisés par le centre de services"
+    },
+    "good": "B"
+  },
+  "124": {
+    "question": "Quelle est l'utilisation PRINCIPALE d'un calendrier des changements ?",
+    "answers": {
+      "A": "Aider à planifier, autoriser et programmer des changements urgents",
+      "B": "Publier une liste de demandes de service que les utilisateurs peuvent choisir",
+      "C": "S'assurer qu'une seule autorité de changement passe en revue chaque changement",
+      "D": "Aider à planifier des changements, assister la communication et éviter les conflits"
+    },
+    "good": "D"
+  },
+  "125": {
+    "question": "Quelles parties prenantes co-créent de la valeur dans une relation de service ?",
+    "answers": {
+      "A": "L'investisseur et le fournisseur",
+      "B": "Le consommateur et le fournisseur",
+      "C": "Le fournisseur et le prestataire",
+      "D": "L'investisseur et le consommateur"
+    },
+    "good": "B"
+  },
+  "126": {
+    "question": "Qu'est-ce qui permet de réduire la résistance à une amélioration planifiée lorsque le principe directeur \"collaborer et promouvoir la visibilité\" est appliqué ?",
+    "answers": {
+      "A": "Limiter les informations sur l'amélioration uniquement aux parties prenantes clés",
+      "B": "Améliorer la collaboration et la visibilité pour l'amélioration",
+      "C": "Engager les clients une fois que toute la planification est terminée",
+      "D": "Impliquer tous les groupes de parties prenantes de la même façon et avec les mêmes communications"
+    },
+    "good": "B"
+  },
+  "127": {
+    "question": "Qu’est-ce que l'utilité ?",
+    "answers": {
+      "A": "La fonctionnalité offerte par un service pour satisfaire un besoin particulier",
+      "B": "L'assurance qu'un service répondra aux exigences convenues",
+      "C": "La somme d'argent dépensée pour une activité ou une ressource spécifique",
+      "D": "Les bénéfices, l'utilité et l'importance d'un élément, tels qu'ils sont perçus"
+    },
+    "good": "A"
+  },
+  "128": {
+    "question": "Parmi les activités suivantes, laquelle est effectuée dans le cadre de la \"gestion des problèmes\" ?",
+    "answers": {
+      "A": "Création d'enregistrements d'incidents",
+      "B": "Diagnostic et résolution d'incidents",
+      "C": "L'escalade d'incidents à une équipe de support pour les résoudre",
+      "D": "Analyse de tendance en matière d'enregistrements des incidents"
+    },
+    "good": "D"
+  },
+  "129": {
+    "question": "Qu'est-ce qui permet de diagnostiquer et de résoudre un incident simple ?",
+    "answers": {
+      "A": "Une escalade rapide",
+      "B": "La mobilisation d'une équipe temporaire",
+      "C": "L'utilisation de scripts",
+      "D": "La priorisation du problème"
+    },
+    "good": "C"
+  },
+  "130": {
+    "question": "Laquelle des options suivantes inclut la gouvernance, les pratiques de gestion et l'amélioration continue ?",
+    "answers": {
+      "A": "Le système de valeur des services",
+      "B": "L'activité \"fournir et assurer le support\" de la chaîne de valeur",
+      "C": "Le principe directeur \"privilégier la valeur\"",
+      "D": "La dimension \"flux de valeur et processus\""
+    },
+    "good": "A"
+  },
+  "131": {
+    "question": "Quelle pratique implique la gestion des vulnérabilités qui ont été analysées mais qui demeurent non résolues ?",
+    "answers": {
+      "A": "Le contrôle des changements",
+      "B": "La gestion des demandes de service",
+      "C": "La gestion des problèmes",
+      "D": "La gestion des niveaux de service"
+    },
+    "good": "C"
+  },
+  "132": {
+    "question": "Identifier le mot manquant dans la phrase suivante : Le but de la pratique de gestion des fournisseurs est de s'assurer que les fournisseurs de l'organisation et leur(s) [?] sont gérés de manière appropriée afin de supporter la fourniture continue en produits et services de qualité",
+    "answers": {
+      "A": "coûts",
+      "B": "utilisateurs",
+      "C": "valeur",
+      "D": "performances"
+    },
+    "good": "D"
+  },
+  "133": {
+    "question": "Laquelle des options suivantes doit être prise en considération dans le cadre de la dimension \"partenaires et fournisseurs\" ?",
+    "answers": {
+      "A": "Le niveau d'intégration et de formalité engagé dans les relations entre les organisations",
+      "B": "Les activités, flux de travail, contrôles et procédures requis pour atteindre les objectifs convenus",
+      "C": "Les informations créées, gérées et utilisées dans le cadre de la fourniture et de la consommation du service",
+      "D": "Les compétences et les aptitudes que doivent posséder les équipes et chaque membre de l'organisation"
+    },
+    "good": "A"
+  },
+  "134": {
+    "question": "Identifier les mots manquants dans la phrase suivante : Un utilisateur est [?] qui utilise des services",
+    "answers": {
+      "A": "une organisation",
+      "B": "une personne",
+      "C": "une équipe",
+      "D": "un fournisseur"
+    },
+    "good": "B"
+  },
+  "135": {
+    "question": "Laquelle des options suivantes est une activité clé de l'étape \"Y sommes-nous parvenus ?\" du modèle d' \"amélioration continue",
+    "answers": {
+      "A": "Définir des cibles mesurables",
+      "B": "Effectuer des évaluations de bases de référence",
+      "C": "Exécuter des actions d'amélioration",
+      "D": "Évaluer les mesures et les métriques"
+    },
+    "good": "D"
+  },
+  "136": {
+    "question": "Quelle activité fait partie de la pratique d' \"amélioration continue\" ?",
+    "answers": {
+      "A": "Identifier et enregistrer les opportunités",
+      "B": "Fournir une implication tactique et opérationnelle aux clients",
+      "C": "Remplir et maintenir le registre des actifs",
+      "D": "Fournir aux utilisateurs une marche a suivre claire pour signaler des problématiques, des requêtes et des demandes"
+    },
+    "good": "A"
+  },
+  "137": {
+    "question": "Quel est le but de la pratique de \"gestion des incidents\" ?",
+    "answers": {
+      "A": "Réduire l'impact négatif des incidents en rétablissant l'exploitation normale des services aussi rapidement que possible",
+      "B": "Capturer la demande de résolution des incidents et les demandes de service",
+      "C": "Réduire la probabilité et l'impact des incidents en identifiant leurs causes réelles ou potentielles",
+      "D": "Supporter la qualité convenue d'un service en traitant efficacement l'ensemble des demandes de service convenues initiées par l'utilisateur"
+    },
+    "good": "A"
+  },
+  "138": {
+    "question": "Quel énoncé sur les étapes à suivre pour satisfaire une demande de service est CORRECT ?",
+    "answers": {
+      "A": "Elles doivent être complexes et détaillées",
+      "B": "Elles doivent être connues et éprouvées",
+      "C": "Elles doivent inclure le traitement des incidents",
+      "D": "Elles doivent être brèves et simples"
+    },
+    "good": "B"
+  },
+  "139": {
+    "question": "Quelle pratique coordonne la classification, la propriété et la communication des demandes de service et des incidents ?",
+    "answers": {
+      "A": "La gestion des fournisseurs",
+      "B": "Le centre de services",
+      "C": "La gestion des problèmes",
+      "D": "La gestion des relations"
+    },
+    "good": "B"
+  },
+  "140": {
+    "question": "Quel est le but de la pratique de \"gestion des déploiements\" ?",
+    "answers": {
+      "A": "S'assurer que les services atteignent les niveaux de performance attendus et convenus",
+      "B": "Mettre à disposition des services nouveaux ou modifiés",
+      "C": "Déplacer des composants nouveaux ou modifiés vers des environnements de production",
+      "D": "Définir des objectifs de performances des services, précis et basés sur le business"
+    },
+    "good": "C"
+  },
+  "141": {
+    "question": "Laquelle des options suivantes est un but de la gestion des mises en production ?",
+    "answers": {
+      "A": "Protéger les informations de l'organisation",
+      "B": "Gérer les demandes de service initiées par l'utilisateur",
+      "C": "Mettre à disposition des services nouveaux et modifiés",
+      "D": "Déplacer du matériel et des logiciels vers des environnements de production"
+    },
+    "good": "C"
+  },
+  "142": {
+    "question": "Quelle pratique a une influence significative sur l'expérience de l'utilisateur et sur la perception du fournisseur de services ?",
+    "answers": {
+      "A": "Le centre de services",
+      "B": "Le contrôle des changements",
+      "C": "La gestion des niveaux de service",
+      "D": "La gestion des fournisseurs"
+    },
+    "good": "A"
+  },
+  "143": {
+    "question": "Quelle est la pratique dont un but inclut l'observation d'un service afin de signaler certains changements d'état identifiés comme des événements ?",
+    "answers": {
+      "A": "La gestion de la sécurité de l'information",
+      "B": "La surveillance et la gestion des événements",
+      "C": "La gestion des incidents",
+      "D": "Le contrôle des changements"
+    },
+    "good": "B"
+  },
+  "144": {
+    "question": "Qu'est-ce qui est généralement nécessaire pour assigner des incidents complexes aux groupes de support ?",
+    "answers": {
+      "A": "Un outil d'auto-assistance",
+      "B": "La priorité de l'incident",
+      "C": "Un calendrier des changements",
+      "D": "La catégorie de l'incident"
+    },
+    "good": "D"
+  },
+  "145": {
+    "question": "Comment le flux de travail d'une nouvelle demande de service doit-il être conçu ?",
+    "answers": {
+      "A": "Utiliser un seul flux de travail pour tous les types de demandes de service",
+      "B": "Utiliser différents flux de travail pour chaque type de demande de service",
+      "C": "Éviter les flux de travail pour les demandes de service simples",
+      "D": "Tirer parti des flux de travail existants dans la mesure du possible"
+    },
+    "good": "D"
+  },
+  "146": {
+    "question": "Laquelle des options suivantes est une recommandation du principe \"penser et travailler de façon holistique\" ?",
+    "answers": {
+      "A": "Passer en revue les pratiques existantes en matière de gestion des services et décider ce qu'il faut garder et ce qu'il faut eliminer",
+      "B": "Revoir la façon dont une initiative d'amélioration peut être organisée en parties plus petites et gérables qui peuvent être réalisées dans un délai convenable",
+      "C": "Revoir les pratiques de gestion des services et éliminer toute complexité inutile",
+      "D": "Utiliser les quatre dimensions de la gestion des services de façon à assurer la coordination de tous les aspects d'une initiative d'amélioration"
+    },
+    "good": "D"
+  },
+  "147": {
+    "question": "Quel principe directeur recommande d'utiliser le nombre minimal d'étapes nécessaires à l'atteinte d'un objectif ?",
+    "answers": {
+      "A": "Progresser par itération avec des retours",
+      "B": "Privilégier la valeur",
+      "C": "Penser et travailler de façon holistique",
+      "D": "Opter pour la simplicité et rester pratique"
+    },
+    "good": "D"
+  },
+  "148": {
+    "question": "Quel énoncé à propos du centre de services est CORRECT ?",
+    "answers": {
+      "A": "Le centre de services doit travailler en étroite collaboration avec les équipes de support et de développement",
+      "B": "Le centre de services doit s'appuyer sur des portails libre-service plutôt que de compter sur l'escalade aux équipes de support",
+      "C": "Le centre de services doit rester isolé des équipes de support technique",
+      "D": "Le centre de services doit faire remonter toutes les difficultés techniques aux équipes de support et de développement"
+    },
+    "good": "A"
+  },
+  "149": {
+    "question": "Quelles sont les deux pratiques qui utilisent des solutions de contournement ?",
+    "answers": {
+      "A": "Le contrôle des changements et l'amélioration continue",
+      "B": "Le contrôle des changements et la gestion des problèmes",
+      "C": "La gestion des problèmes et la gestion des incidents",
+      "D": "La gestion des incidents et l'amélioration continue"
+    },
+    "good": "C"
+  },
+  "150": {
+    "question": "Quelle dimension inclut des activités et des flux de travail ?",
+    "answers": {
+      "A": "Organisations et personnes",
+      "B": "Information et technologie",
+      "C": "Partenaires et fournisseurs",
+      "D": "Flux de valeur et processus"
+    },
+    "good": "D"
+  },
+  "151": {
+    "question": "Laquelle des options suivantes est une recommandation du principe directeur \"privilégier la valeur\" ?",
+    "answers": {
+      "A": "Faire de \"privilégier la valeur\" une responsabilité de la direction",
+      "B": "Privilégier la valeur des projets nouveaux et importants",
+      "C": "Privilégier la valeur d'abord pour le fournisseur de services",
+      "D": "Privilégier la valeur à chaque étape de l'amélioration"
+    },
+    "good": "D"
+  },
+  "152": {
+    "question": "Qu'est ce qui est défini comme une interruption non planifiée d'un service ou une réduction de la qualité d'un service ?",
+    "answers": {
+      "A": "Un incident",
+      "B": "Un problème",
+      "C": "Un changement",
+      "D": "Un événement"
+    },
+    "good": "A"
+  },
+  "153": {
+    "question": "Quel est le résultat attendu de l'utilisation d'une chaîne de valeur de services ?",
+    "answers": {
+      "A": "Des flux de valeur de service",
+      "B": "L'implication des clients",
+      "C": "La réalisation de valeur",
+      "D": "L'application de pratiques"
+    },
+    "good": "C"
+  },
+  "154": {
+    "question": "Quel énoncé sur les autorités de changement est CORRECT ?",
+    "answers": {
+      "A": "Les autorités de changement servent uniquement à autoriser les changements urgents",
+      "B": "Les autorités de changement sont assignées lors du déploiement de chaque changement",
+      "C": "Les autorités de changement servent seulement à autoriser les changements normaux",
+      "D": "Les autorités de changement sont assignées pour chaque type et chaque modèle de changement"
+    },
+    "good": "D"
+  },
+  "155": {
+    "question": "Quelle pratique est utilisée pour valider les besoins des clients en matière de services ?",
+    "answers": {
+      "A": "La gestion des demandes de service",
+      "B": "La gestion des niveaux de service",
+      "C": "Le centre de services",
+      "D": "La gestion des incidents"
+    },
+    "good": "B"
+  },
+  "156": {
+    "question": "Quel énoncé sur les coûts est CORRECT ?",
+    "answers": {
+      "A": "Les coûts imposés au consommateur correspondent aux coûts de l'utilité du service",
+      "B": "Les coûts supprimés pour le consommateur font partie de la proposition de valeur",
+      "C": "Les coûts imposés au consommateur correspondent aux coûts de la garantie du service",
+      "D": "Les coûts supprimés pour le consommateur font partie de la consommation du service"
+    },
+    "good": "B"
+  },
+  "157": {
+    "question": "Qu'est-ce qui est la cause, ou la cause potentielle, d'un ou plusieurs incidents ?",
+    "answers": {
+      "A": "Un changement",
+      "B": "Un événement",
+      "C": "Une erreur connue",
+      "D": "Un problème"
+    },
+    "good": "D"
+  },
+  "158": {
+    "question": "Quel est le but de l'activité de la chaîne de valeur \"impliquer\" ?",
+    "answers": {
+      "A": "Répondre aux attentes en matière de qualité, de coûts et de délai de commercialisation",
+      "B": "Apporter la transparence et les bonnes relations",
+      "C": "Assurer l'amélioration continue des services",
+      "D": "S'assurer que la vision de l'organisation est bien comprise"
+    },
+    "good": "B"
+  },
+  "159": {
+    "question": "Où sont définis les résultats requis d'un service en matière de performances ?",
+    "answers": {
+      "A": "Dans les accords sur les niveaux de service",
+      "B": "Dans les demandes de service",
+      "C": "Dans les composants de service",
+      "D": "Dans les offres de service"
+    },
+    "good": "A"
+  },
+  "160": {
+    "question": "Quelle est la MEILLEURE description de la valeur d'un service pour un client ?",
+    "answers": {
+      "A": "La somme d'argent que le client paie pour utiliser le service",
+      "B": "Le retour financier obtenu par le client en utilisant le service",
+      "C": "Les résultats obtenus par le client en utilisant le service",
+      "D": "La perception qu'a le client des bénéfices liés à l'utilisation du servic"
+    },
+    "good": "D"
+  }
+}
