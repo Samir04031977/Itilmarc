@@ -24,7 +24,7 @@ h1 {
 }
 
 nav {
-    text-align: right;
+    text-align: center;
     padding-top: 13px;
     display: flex;
     flex-direction: row;
@@ -51,6 +51,22 @@ a.button:hover {
 a.button:active {
     box-shadow: 0 1px 2px #888 inset;
 }
+
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column-reverse;
+        justify-content: end;
+    }
+
+    nav > * {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav > .button {
+        min-width: 50px;
+    }
+}
+
 
 input[type="radio"] {
     width: 1.3em;
@@ -107,4 +123,3 @@ progress#time-progress::-webkit-progress-value {
     background-color: green;
     transition: background-color 2s;
 }
-  
