@@ -6,53 +6,49 @@ h1 {
     text-align: center;
 }
 
-#title {
-    text-decoration: underline;
+#container {
+    width: 900px;
+    max-width: calc(100% - 50px);
+    margin: auto;
+    padding: 10px 25px 25px 25px;
+    background-color: #1764b1;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    box-shadow: 0px 5px 10px #888;
 }
 
 #quiz {
-    text-indent: 10px;
     display:none;
 }
 
-.button {
-    border:4px solid;
-    border-radius:5px;
-    width: 40px;
-    padding-left:5px;
-    padding-right: 5px;
-    position: relative;
-    float:right;
-    background-color: #DCDCDC;
-    color: black;
-    margin: 0 2px 0 2px;
+nav {
+    text-align: right;
+    padding-top: 3px;
 }
 
-.button.active {
+a.button {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 0 0 15px;
+    text-decoration: none;
+}
+
+a.button:hover {
     background-color: #F8F8FF;
     color: #525252;
 }
 
-button {
-    position: relative;
-    float:right;
+a.button:active {
+    box-shadow: 0 1px 2px #888 inset;
 }
 
-.button a {
-    text-decoration: none;
-    color: black;
-}
-
-#container {
-    width:50%;
-    margin:auto;
-    padding: 0 25px 40px 10px;
-    background-color: #1E90FF;
-    border:4px solid #B0E0E6;
-    border-radius:5px;
-    color: #FFFFFF;
-    font-weight: bold;
-    box-shadow: 5px 5px 5px #888;
+input[type="radio"] {
+    width: 1.3em;
+    height: 1.3em;
 }
 
 ul {
@@ -61,11 +57,25 @@ ul {
     margin: 0;
 }
 
-#prev {
-    display:none;
+li.answer-line {
+    line-height: 1.3em;
+    padding-bottom: 12px;
 }
 
-#start {
+.good {
+    color: rgb(86, 255, 86);
+}
+li.answer-line.good::after {
+    content: " ✔️";
+}
+
+.bad {
+    color: rgb(255, 153, 153);
+}
+li.answer-line.bad::after {
+    content: " ❌";
+}
+
+#prev {
     display:none;
-    width: 90px;
 }

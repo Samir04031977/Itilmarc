@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Dynamic Quiz ITIL</title>
-		<p>Les Questions sont actualisées à chaque reload de page pour tourner aléatoirement dans les 160 questions mises à disposition</p>
+		<title>Questionnaire ITIL</title>
 		<link type='text/css' rel='stylesheet' href='stylesheet.css'/>
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
 	</head>
 	<body>
+		<h1>Questionnaire ITIL 4</h1>
 		<div id='container'>
-			<div id='title'>
-				<h1>Learning ITIL4: Dynamic Quiz ITIL</h1>
+  			<div id='quiz'>
+
 			</div>
-   			<br/>
-  			<div id='quiz'></div>
-    		<div class='button' id='next'><a href='#'>Next</a></div>
-    		<div class='button' id='prev'><a href='#'>Prev</a></div>
-    		<div class='button' id='start' onClick='window.location.reload()'> <a href='#'>Start Over</a></div>
+			<nav>
+				Réponses <span id="answerGoodCount">0</span>/<span id="answerTotalCount">0</span> -
+				Question <span id="questionCurrent">1</span>/<span id="questionTotal">1</span>
+				<a class='button' id='start' onclick="if (confirm('Êtes vous sûr de vouloir recommencer ?')) {window.location.reload();}" href='#'>Recommencer</a>
+				<a class='button' id='next' href='#'>Suivant</a>
+			</nav>
     	</div>
-		<div class='button' style="margin-left: auto; margin-right: auto; position: absolute;"><a href='./exam_blanc.html'>Exam_blanc</a></div>
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
 		<script type="text/javascript" src='questions.js'></script>
 	</body>
