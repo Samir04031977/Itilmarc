@@ -27,6 +27,21 @@ fetch("data.json")
 
 function init(questionsData) {
 
+  var timerStart = Date.now();
+  var timerInterval = setInterval(function() {
+    var timerNow = Date.now();
+    var progress = timerNow - timerStart;
+    if (progress > 3600000) {
+      progress = 3600000;
+      clearInterval(timerInterval);
+    }
+    document.getElementById("time-progress").value = progress;
+    var sec = parseInt(progress / 1000);
+    var min = parseInt(sec / 60);
+    sec = sec % 60;
+    $('.time-progress-time').html(String(min).padStart(2, '0') + ':' + String(sec).padStart(2, '0'));
+  }, 200);
+
   var ids = Object.keys(questionsData);
   shuffle(ids);
 
@@ -76,6 +91,22 @@ function init(questionsData) {
       questionCounter++;
       displayNext();
       showingAnswer = false;
+    }
+  });
+  
+  // Click handler for the 'next' button
+  $('#start').on('click', function (e) {
+    e.preventDefault();
+    
+    // Suspend click listener during fade animation
+    if(quiz.is(':animated')) {        
+      return false;
+    }
+
+    if (questionCounter <= 0
+        || questionCounter >= questions.length
+        || confirm('Êtes vous sûr de vouloir recommencer ?')) {
+      window.location.reload();
     }
   });
   
@@ -148,6 +179,7 @@ function init(questionsData) {
   
   // Computes score and returns a paragraph element to be displayed
   function displayScore() {
+    clearInterval(timerInterval);
     var score = $('<div id="question">');
     score.append('<h2>Résumé des réponses</h2>');
     for (var i = 0; i < questions.length; i++) {

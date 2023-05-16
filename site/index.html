@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Questionnaire ITIL</title>
+		<title>Questionnaire ITIL 4</title>
 		<link type='text/css' rel='stylesheet' href='stylesheet.css'/>
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
 	</head>
@@ -12,12 +12,14 @@
 
 			</div>
 			<nav>
-				Réponses <span id="answerGoodCount">0</span>/<span id="answerTotalCount">0</span> -
-				Question <span id="questionCurrent">1</span>/<span id="questionTotal">1</span>
-				<a class='button' id='start' onclick="if (confirm('Êtes vous sûr de vouloir recommencer ?')) {window.location.reload();}" href='#'>Recommencer</a>
-				<a class='button' id='next' href='#'>Suivant</a>
+				<a class='button' id='start' href='#' title="Recommencer" style="padding-top: 2px; padding-bottom: 6px;">⟳</a>
+				<div><label for="time-progress" id="time-progress-label"><span class="time-progress-time">00:00</span>/60:00</label></div>
+				<div>Réponses <span id="answerGoodCount">0</span>/<span id="answerTotalCount">0</span></div>
+				<div>Question <span id="questionCurrent">1</span>/<span id="questionTotal">1</span></div>
+				<a class='button' id='next' href='#' title="Suivant">⭢</a>
 			</nav>
     	</div>
+		<progress id="time-progress" max="3600000" value="0"><span class="time-progress-time">00:00</span>/60:00</progress>
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
 		<script type="text/javascript" src='questions.js'></script>
 	</body>

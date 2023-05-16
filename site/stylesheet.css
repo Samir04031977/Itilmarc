@@ -24,16 +24,21 @@ h1 {
 
 nav {
     text-align: right;
-    padding-top: 3px;
+    padding-top: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a.button {
     display: inline-block;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 4px 15px;
+    font-size: 1.2em;
     background-color: #DCDCDC;
     color: black;
-    margin: 0 0 0 15px;
+    margin: 0 15px;
     text-decoration: none;
 }
 
@@ -76,6 +81,29 @@ li.answer-line.bad::after {
     content: " ❌";
 }
 
-#prev {
-    display:none;
+#time-progress-label {
+    font-size: 0.8em;
+    color: #bbb;
 }
+
+
+progress#time-progress {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 8px;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+progress#time-progress::-webkit-progress-bar {
+    background-color: transparent;
+}
+
+progress#time-progress::-moz-progress-bar,
+progress#time-progress::-webkit-progress-value {
+    background-color: green;
+    transition: background-color 2s;
+}
+  
