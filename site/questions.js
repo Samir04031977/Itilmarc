@@ -51,6 +51,7 @@ function init(questionsData) {
   document.getElementById("time-progress").max = maxTime;
 
   var timerStart = Date.now();
+  var refreshInterval = Math.max(30, Math.min(200, maxTime / (2 * window.screen.width)));
   var timerInterval = setInterval(function() {
     var timerNow = Date.now();
     var progress = timerNow - timerStart;
@@ -82,7 +83,7 @@ function init(questionsData) {
         progressHue = redH + (remTimePerQu - 20000) * (greenH - redH) / (timePerQu - 20000);
     }
     document.getElementById('time-progress').style.setProperty('--progress-background', 'hsl(' + progressHue + ', 100%, 40%)');
-  }, 200);
+  }, refreshInterval);
 
   var questions = [];
   for (var i = 0; i < nbQuestion; i++) {
