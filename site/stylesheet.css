@@ -94,16 +94,25 @@ li.answer-line {
 .good {
     color: rgb(86, 255, 86);
 }
-li.answer-line.good::after {
+li.answer-line.good label::after {
     content: " ✔️";
 }
 
 .bad {
     color: rgb(255, 153, 153);
 }
-li.answer-line.bad::after {
+li.answer-line.bad label::after {
     content: " ❌";
 }
+
+.explain {
+    display: none;
+    font-size: .8em;
+    margin-left: 50px;
+    color: #ddd;
+}
+
+
 
 #time-progress-label {
     font-size: 0.8em;

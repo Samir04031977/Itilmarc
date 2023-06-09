@@ -87,12 +87,7 @@ function init(questionsData) {
 
   var questions = [];
   for (var i = 0; i < nbQuestion; i++) {
-    var quData = questionsData[ids[i]]
-    questions.push({
-      question: quData["question"].replaceAll('\n', '<br>'),
-      choices: quData["answers"],
-      correctAnswer: quData["good"]
-    })
+    questions.push(questionsData[ids[i]]);
   }
 
   $('#questionTotal').html(nbQuestion);
@@ -136,7 +131,7 @@ function init(questionsData) {
     }
   });
   
-  // Click handler for the 'next' button
+  // Click handler for the 'start' button
   $('#start').on('click', function (e) {
     e.preventDefault();
     
@@ -155,16 +150,30 @@ function init(questionsData) {
   // Creates and returns the div that contains the questions and 
   // the answer selections
   function createQuestionElement(index) {
+    var question = questions[index];
     var qElement = $('<div id="question">');
-    qElement.append('<p><b>' + questions[index].question + '</b></p>');
+    var qTxtElement = $('<p id="question-text">');
+    qTxtElement.append('<b>' + question.question + '</b>');
+    qTxtElement.append('<div class="explain" id="question-explain"></div>');
+    if (question.question_choices) {
+      var choicesList = $('<ul>');
+      for (var choiceId of Object.keys(question.question_choices)) {
+        choicesList.append('<li class="question-choice" id="question-choice-' + choiceId + '">' + choiceId + '. ' + question.question_choices[choiceId]
+            + '<div class="explain" id="question-choice-' + choiceId + '-explain"></div></li>');
+      }
+      qTxtElement.append(choicesList);
+    }
+    qElement.append(qTxtElement);
     
-    var choices = questions[index].choices;
+    
+    var answers = question.answers;
     var radioList = $('<ul>');
-    for (var choiceId of Object.keys(choices)) {
-      var choiceText = choices[choiceId];
-      var item = $('<li class="answer-line" id="answer-line-' + choiceId + '">');
-      var input = '<input type="radio" name="answer" id="answer-' + choiceId + '" value="' + choiceId + '" />';
-      input += '<label for="answer-' + choiceId + '">&nbsp;' + choiceId + '. ' + choiceText + '</label>';
+    for (var answerId of Object.keys(answers)) {
+      var choiceText = answers[answerId];
+      var item = $('<li class="answer-line" id="answer-line-' + answerId + '">');
+      var input = '<input type="radio" name="answer" id="answer-' + answerId + '" value="' + answerId + '" />';
+      input += '<label for="answer-' + answerId + '">&nbsp;' + answerId + '. ' + choiceText + '</label>';
+      input += '<div class="explain" id="answer-' + answerId + '-explain"></div>';
       item.append(input);
       radioList.append(item);
     }
@@ -177,17 +186,40 @@ function init(questionsData) {
   function saveSelection() {
     var val = $('input[name="answer"]:checked').val();
     if (val !== undefined)
-      selections[questionCounter] = $('input[name="answer"]:checked').val();
+      selections[questionCounter] = val;
+    console.log(val, questions[questionCounter].good);
   }
 
   function displayAnswer() {
-    $('input[name="answer"]').prop("disabled", true);
+    var question = questions[questionCounter];
     var selectedAnswer = selections[questionCounter];
-    var goodAnswer = questions[questionCounter].correctAnswer;
+    // show good and bad answers
+    $('input[name="answer"]').prop("disabled", true);
+    var goodAnswer = question.good;
     $('#answer-line-' + goodAnswer).addClass('good');
     if (selectedAnswer !== goodAnswer) {
       $('#answer-line-' + selectedAnswer).addClass('bad');
     }
+
+    // show answer explainations
+    if (question.question_explain) {
+      document.getElementById('question-explain').innerHTML = question.question_explain;
+      document.getElementById('question-explain').style.display = 'block';
+    }
+    if (question.question_choices_explain) {
+      for (var choiceId of Object.keys(question.question_choices_explain)) {
+        document.getElementById('question-choice-' + choiceId + '-explain').innerHTML = question.question_choices_explain[choiceId];
+        document.getElementById('question-choice-' + choiceId + '-explain').style.display = 'block';
+      }
+    }
+    if (question.answers_explain) {
+      for (var answerId of Object.keys(question.answers_explain)) {
+        document.getElementById('answer-' + answerId + '-explain').innerHTML = question.answers_explain[answerId];
+        document.getElementById('answer-' + answerId + '-explain').style.display = 'block';
+      }
+    }
+
+    // update answer count display
     $('#answerGoodCount').html(countGoodAnswers());
     $('#answerTotalCount').html((questionCounter + 1));
   }
@@ -222,7 +254,7 @@ function init(questionsData) {
       var question = questions[i];
       score.append('<p><b>Q' + (i + 1) + '. ' + question.question + '</b></p>');
 
-      var hasGoodAnswer = question.correctAnswer === selections[i];
+      var hasGoodAnswer = question.good === selections[i];
       if (hasGoodAnswer) {
         score.append('<p class="good">Bonne réponse !</p>');
       }
@@ -231,10 +263,10 @@ function init(questionsData) {
       }
 
       var list = $('<ul>');
-      var choices = questions[i].choices;
+      var choices = questions[i].answers;
       for (var choiceId of Object.keys(choices)) {
         var choiceText = choices[choiceId];
-        var isGood = choiceId === question.correctAnswer;
+        var isGood = choiceId === question.good;
         var isSelected = choiceId === selections[i];
         var item = $('<li class="answer-line' + (isGood ? ' good' : isSelected ? ' bad' : '') + '">');
         item.append(choiceId + '. ' + choiceText);
@@ -248,7 +280,7 @@ function init(questionsData) {
   function countGoodAnswers() {
     var numCorrect = 0;
     for (var i = 0; i < selections.length; i++) {
-      if (selections[i] === questions[i].correctAnswer) {
+      if (selections[i] === questions[i].good) {
         numCorrect++;
       }
     }
