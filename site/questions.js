@@ -48,6 +48,7 @@ function init(questionsData) {
   var minTotal = parseInt(secTotal / 60);
   secTotal = secTotal % 60;
   $('.time-total-time').html(String(minTotal).padStart(2, '0') + ':' + String(secTotal).padStart(2, '0'));
+  document.getElementById("time-progress").max = maxTime;
 
   var timerStart = Date.now();
   var timerInterval = setInterval(function() {
