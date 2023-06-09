@@ -33,7 +33,7 @@ nav {
     align-items: center;
 }
 
-a.button {
+.button {
     display: inline-block;
     border-radius: 5px;
     padding: 4px 15px;
@@ -42,14 +42,15 @@ a.button {
     color: black;
     margin: 0 15px;
     text-decoration: none;
+    border: none;
 }
 
-a.button:hover {
+.button:hover {
     background-color: #F8F8FF;
     color: #525252;
 }
 
-a.button:active {
+.button:active {
     box-shadow: 0 1px 2px #888 inset;
 }
 
@@ -124,4 +125,13 @@ progress#time-progress::-moz-progress-bar,
 progress#time-progress::-webkit-progress-value {
     background-color: var(--progress-background);
     transition: background-color 2s;
+}
+
+
+input[type="number"] {
+    border: none;
+    font-size: 1.2em;
+    padding: 5px 0 5px 3px;
+    border-radius: 5px;
+    margin: 0 15px;
 }

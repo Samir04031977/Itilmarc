@@ -9,11 +9,12 @@ function shuffle(array) {
   return array;
 }
 
+
+var urlParams = new URLSearchParams(window.location.search);
+
 // s = 100%, l = 40%
 var greenH = 120;
 var redH = 0;
-
-const nbQuestion = 40;
 
 fetch("data.json")
   .then(function(response){
@@ -32,6 +33,12 @@ fetch("data.json")
   });
 
 function init(questionsData) {
+
+  var ids = Object.keys(questionsData);
+  shuffle(ids);
+  
+  var nbQAsked = parseInt(urlParams.get("n"));
+  const nbQuestion = isNaN(nbQAsked) ? 40 : Math.min(Math.max(nbQAsked, 1), ids.length);
 
   var timerStart = Date.now();
   var timerInterval = setInterval(function() {
@@ -66,9 +73,6 @@ function init(questionsData) {
     }
     document.getElementById('time-progress').style.setProperty('--progress-background', 'hsl(' + progressHue + ', 100%, 40%)');
   }, 200);
-
-  var ids = Object.keys(questionsData);
-  shuffle(ids);
 
   var questions = [];
   for (var i = 0; i < nbQuestion; i++) {
