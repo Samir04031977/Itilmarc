@@ -40,12 +40,21 @@ function init(questionsData) {
   var nbQAsked = parseInt(urlParams.get("n"));
   const nbQuestion = isNaN(nbQAsked) ? 40 : Math.min(Math.max(nbQAsked, 1), ids.length);
 
+  const timePerQu = 3600000 / 40; // 1min30 / 1 question <=> 1h / 40 question
+  const maxTime = timePerQu * nbQuestion;
+
+  
+  var secTotal = parseInt(maxTime / 1000);
+  var minTotal = parseInt(secTotal / 60);
+  secTotal = secTotal % 60;
+  $('.time-total-time').html(String(minTotal).padStart(2, '0') + ':' + String(secTotal).padStart(2, '0'));
+
   var timerStart = Date.now();
   var timerInterval = setInterval(function() {
     var timerNow = Date.now();
     var progress = timerNow - timerStart;
-    if (progress > 3600000) {
-      progress = 3600000;
+    if (progress > maxTime) {
+      progress = maxTime;
       clearInterval(timerInterval);
     }
     document.getElementById("time-progress").value = progress;
@@ -55,7 +64,7 @@ function init(questionsData) {
     $('.time-progress-time').html(String(min).padStart(2, '0') + ':' + String(sec).padStart(2, '0'));
 
     // compute progresbar color
-    var remTime = 3600000 - progress;
+    var remTime = maxTime - progress;
     var remQu = nbQuestion - questionCounter;
     var progressHue = 0;
     if (remTime == 0)
@@ -64,12 +73,12 @@ function init(questionsData) {
       progressHue = greenH;
     else {
       var remTimePerQu = remTime / remQu;
-      if (remTimePerQu > 90000)
+      if (remTimePerQu > timePerQu)
         progressHue = greenH;
       else if (remTimePerQu < 20000)
         progressHue = redH;
       else
-        progressHue = redH + (remTimePerQu - 20000) * (greenH - redH) / (90000 - 20000);
+        progressHue = redH + (remTimePerQu - 20000) * (greenH - redH) / (timePerQu - 20000);
     }
     document.getElementById('time-progress').style.setProperty('--progress-background', 'hsl(' + progressHue + ', 100%, 40%)');
   }, 200);
