@@ -1,11 +1,8 @@
-# ITIL
+# ITIL training questionnaire
 
-## Lancer le site via docker
+## Build and run with docker
 
+```bash
+docker build -t <tag> .
+docker run -d -p <host_port>:8080 <tag>
 ```
-docker run -d -p 80:8080 hanryos/itilquizz
-```
-
-## Lancer le site localement
-
-Aller dans le dossier site/js et double cliquer sur index.html pour l'ouvrir
